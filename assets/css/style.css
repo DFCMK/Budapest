@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --background: rgba(85, 214, 170, .85);
-}
-
 body {
     margin: 0;
     background: #222;
@@ -15,18 +11,9 @@ body {
     font-weight: 400;
 }
 
-/*.content {
-    height: 200vh;
-    background-image: url("./images/pexels-diego-f-parra-15552948.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
-    display: grid;
-    place-items: center;
-}*/
-
 /*Navigation styles*/
 header {
-    background-color: var(--background);
+    background-color: rgba(85, 214, 170, .85);
     text-align: center;
     position: fixed;
     z-index: 9999;
@@ -34,9 +21,80 @@ header {
 }
 
 nav {
-    position: absolute; 
+    position: absolute;
+    text-align: left; 
+    top: 100%;
+    left: 0; 
+    background-color:rgba(85, 214, 170, .85);
+    width: 100%;
+    display: none;
 }
 
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgba(85, 214, 170, .85);
+}
+
+nav li {
+    margin-bottom: 1em; 
+    margin-left: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.nav-toggle:checked~nav{
+    display: block;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    margin-right: 1em;
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: whitesmoke;
+    height: 2px;
+    width: 2em;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+    top: 7px;
+}
 main {
     height: 200vh;
     background-image: url("./images/pexels-diego-f-parra-15552948.jpg");
@@ -45,4 +103,10 @@ main {
     background-color: rgba(85, 214, 170, .85);
     display: grid;
     place-items: center;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-toggle-label {
+        display: none;
+    }
 }
