@@ -109,4 +109,29 @@ main {
     .nav-toggle-label {
         display: none;
     }
+
+    header {
+        display: flex;
+        align-items: last baseline;
+    }
+
+    nav {
+        all: unset;
+        grid-column: 3 / 4;
+        display: flex;
+        align-items: flex-end;
+        margin-right: 10px;
+
+    }
+
+    nav a {
+        opacity: 1;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: last baseline;
+        border: 1px solid red;
+    }
 }
