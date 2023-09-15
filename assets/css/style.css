@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    background: #222;
+    background: red;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
@@ -16,7 +16,7 @@ header {
     background-color: rgba(85, 214, 170, .85);
     text-align: center;
     position: fixed;
-    z-index: 9999;
+    z-index: 99;
     width: 100%;
 }
 
@@ -95,12 +95,15 @@ nav a:hover {
 .nav-toggle-label span::after {
     top: 7px;
 }
-main {
+#chainbridge {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    color: black
+    
 }
-
 #budapest {
     height: 100vh;
     width: 100%;
