@@ -197,9 +197,83 @@ p {
     text-align: justify;
 }
 
+/*Castle*/
+.castle {
+    display: flex;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.image-castle {
+    flex: 1;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+.image-castle img {
+    width: 60vh;
+    height: auto;
+    display: block;
+}
+
+.text-castle {
+    display: flex;
+    padding: 20px;
+    margin-top: 2.5rem;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.text-castle h2 {
+    margin-bottom: 1rem;
+}
+
+.text-castle p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+/*Matyas Templom*/
+.matthias-church {
+    display: flex;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.image-matt {
+    flex: 1;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+.image-matt img {
+    width: 60vh;
+    height: auto;
+    display: block;
+}
+
+.text-matt {
+    display: flex;
+    padding: 20px;
+    margin-top: 2.5rem;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.text-matt h2 {
+    margin-bottom: 1rem;
+}
+
+.text-matt p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+
+
 footer {
     background-color: rgba(85, 214, 170, 0.85);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     margin-top: -20px;
     width: 100%
