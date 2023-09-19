@@ -143,7 +143,7 @@ main {
 }
 
 .image img {
-    width: 30vh;
+    width: 50vh;
     height: auto;
     display: block;
 }
@@ -161,7 +161,7 @@ main {
 }
 
 p {
-    line-height: 1.5em;
+    line-height: 1.4em;
 }
 /*Parliament*/
 .parliament {
@@ -353,8 +353,10 @@ footer {
         margin-top: 2rem;
         color: #ffffff;
         flex-direction: column;
-        margin-right: 5rem;
+        margin-right: 62rem;
     }
+
+
     
     /*Parliament*/
     .parliament {
@@ -428,8 +430,4 @@ footer {
         .text-matt p{
             margin-right: 20px;
         }
-
-        p{
-            line-height: 1.4rem;
-        }
-}
+    }
