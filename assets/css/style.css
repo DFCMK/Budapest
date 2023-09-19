@@ -128,6 +128,7 @@ main {
     background-color: rgba(85, 214, 170, 0.85);
     padding: 20px;
 }
+
 /*Chainbridge*/
 .chainbridge {
     display: flex;
@@ -316,6 +317,16 @@ footer {
         align-self: center;
     }
 
+    #text-overlay {
+        opacity: 0;
+        transition: opacity 0.5s;
+        cursor: pointer;
+    }
+
+    #text-overlay:hover {
+        opacity: 1;
+    }
+
     nav {
         all: unset;
         grid-column: 3 / 4;
@@ -353,7 +364,7 @@ footer {
         margin-top: 2rem;
         color: #ffffff;
         flex-direction: column;
-        margin-right: 62rem;
+        margin-right: 30rem;
     }
 
 
