@@ -97,9 +97,7 @@ nav a:hover {
 
 #logo {
     font-size: auto;
-    /*font-size: 300%;*/
-    /*line-height: 75px;*/
-    /*margin: 0 0.5rem;*/
+
 }
 
 main {
@@ -338,6 +336,7 @@ footer {
         opacity: 0;
         transition: opacity 0.5s;
         cursor: pointer;
+        background-color: rgba(85, 214, 170, .85)
     }
 
     #text-overlay:hover {
