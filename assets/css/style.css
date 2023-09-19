@@ -100,6 +100,7 @@ main {
     display: flex;
     flex-direction: column;
     top: 4rem;
+    margin-bottom: 30px;
 }
 #budapest {
     height: 100vh;
@@ -111,6 +112,7 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
+    margin-bottom: -30px;
 }
 
 #text-overlay {
@@ -130,12 +132,13 @@ main {
 .chainbridge {
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
     min-height: 100vh;
+    width: 100%
 }
 
 .image {
     flex: 1;
-    padding: 20px;
     margin-top: 2rem;
 }
 
@@ -146,11 +149,11 @@ main {
 }
 
 .text {
-    display: flex;
+    flex: 1;
+    flex-direction:column;
     padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
-    flex-direction: column;
 }
 
 .text h2 {
@@ -159,19 +162,19 @@ main {
 
 p {
     line-height: 1.5em;
-    text-align: justify;
 }
 /*Parliament*/
 .parliament {
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
     min-height: 100vh;
+    width: 100%
 }
 
 .image-parl {
     flex: 1;
-    padding: 20px;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .image-parl img {
@@ -182,10 +185,10 @@ p {
 
 .text-parl {
     display: flex;
+    flex-direction: column;
     padding: 20px;
     margin-top: 2.5rem;
     color: #ffffff;
-    flex-direction: column;
 }
 
 .text-parl h2 {
@@ -201,13 +204,14 @@ p {
 .castle {
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
     min-height: 100vh;
+    width: 100%
 }
 
 .image-castle {
     flex: 1;
-    padding: 20px;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .image-castle img {
@@ -218,10 +222,10 @@ p {
 
 .text-castle {
     display: flex;
+    flex-direction: column;
     padding: 20px;
     margin-top: 2.5rem;
     color: #ffffff;
-    flex-direction: column;
 }
 
 .text-castle h2 {
@@ -237,27 +241,27 @@ p {
 .matthias-church {
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
     min-height: 100vh;
+    width: 100%
 }
 
 .image-matt {
     flex: 1;
-    padding: 20px;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .image-matt img {
-    width: 60vh;
+    width: 55vh;
     height: auto;
     display: block;
 }
 
 .text-matt {
     display: flex;
-    padding: 20px;
-    margin-top: 2.5rem;
-    color: #ffffff;
     flex-direction: column;
+    padding: 20px;
+    color: #ffffff;
 }
 
 .text-matt h2 {
@@ -269,14 +273,12 @@ p {
     text-align: justify;
 }
 
-
-
 footer {
     background-color: rgba(85, 214, 170, 0.85);
     position: fixed;
     bottom: 0;
     margin-top: -20px;
-    width: 100%
+    width: 100%;
 }
 
 #social-media {
@@ -335,4 +337,99 @@ footer {
         justify-content: space-evenly;
         align-items: last baseline;
         }
+        
+        /*Chainbridge*/
+      .chainbridge {
+        flex-direction: row; 
     }
+
+    .image {
+        flex: 1;
+    }
+
+    .text {
+        flex: 1;
+        padding: 20px;
+        margin-top: 2rem;
+        color: #ffffff;
+        flex-direction: column;
+        margin-right: 5rem;
+    }
+    
+    /*Parliament*/
+    .parliament {
+        flex-direction: row;
+    }
+    
+    .image-parl {
+        flex: 1;
+        margin-top: 3rem;
+    }
+    
+    .text-parl {
+        flex: 1;
+        padding: 20px;
+        margin-top: 2rem;
+        color: #ffffff;
+        flex-direction: column;
+        overflow:hidden;
+        margin-right: 5rem;
+    }
+
+        .text-parl p {
+            margin-left: 20px;
+        }
+
+
+        p {
+            line-height: 1.4rem;
+        }
+        
+        /*Castle*/
+        .castle {
+         flex-direction: row;
+        }
+        
+        .image-castle {
+            flex: 1;
+            margin-top: 3rem;
+        }
+        
+        .text-castle {
+            flex: 1;
+            padding: 20px;
+            margin-top: 2rem;
+            color: #ffffff;
+            flex-direction: column;
+        }
+
+        .text-castle p {
+            margin-left: 20px;
+        }
+        
+        /*Matyas Templom*/
+        .matthias-church {
+          flex-direction: row;
+        }
+        
+        .image-matt {
+            flex: 1;
+            margin-top: 3rem;
+        }
+        
+        .text-matt {
+            flex: 1;
+            padding: 20px;
+            margin-top: 2rem;
+            color: #ffffff;
+            flex-direction: column;
+        }
+
+        .text-matt p{
+            margin-right: 20px;
+        }
+
+        p{
+            line-height: 1.4rem;
+        }
+}
