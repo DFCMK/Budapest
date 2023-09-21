@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    background: #222;
+    background: #0c0fdc;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
@@ -181,7 +181,7 @@ main {
 
 .text-parl {
     flex: 1;
-    /*padding: 20px;*/
+    padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
 }
@@ -206,7 +206,7 @@ main {
 
 .text-castle {
     flex: 1;
-    /*padding: 20px;*/
+    padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
 }
@@ -332,11 +332,12 @@ footer {
    /*Chainbridge*/
 .chainbridge {
     display: flex;
-    justify-content: space-between;
-    /*align-items: flex-start;
-    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
     min-height: 100vh;
-    width: 100%*/
+    width: 100%
+   
 }
 
 .image {
@@ -344,17 +345,17 @@ footer {
     margin-top: 2rem;
 }
 
-.image img {
+/*.image img {
     width: 100%;
     height: auto;
     display: block;
-}
+}*/
 
 .text {
     flex: 1;
     flex-direction:column;
     padding: 20px;
-    margin-top: 2rem;
+    margin-top: 10rem;
     color: #ffffff;
 }
 
@@ -402,7 +403,7 @@ p {
     width: 50%;
     flex-direction: column;
     padding: 20px;
-    margin-top: 65rem;
+    margin-top: 50rem;
     color: #ffffff;
 }
 
@@ -419,7 +420,11 @@ p {
 /*Castle*/
 .castle {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%
 
     /*align-items: flex-start;
     flex-direction: column;
@@ -442,7 +447,8 @@ p {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin-top: 2.5rem;
+    margin-top: 10rem;
+    margin-right: 10rem;
     color: #ffffff;
 }
 
