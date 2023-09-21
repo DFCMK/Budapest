@@ -126,7 +126,7 @@ main {
     top: 50%; /* Adjust this value to vertically center the text*/ 
     left: 50%; /* Adjust this value to horizontally center the text */
     transform: translate(-50%, -50%); /* Center the text perfectly */
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
@@ -138,10 +138,9 @@ main {
 /*Chainbridge*/
 .chainbridge {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
+    align-items: flex-start;
     min-height: 100vh;
-    width: 100%
 }
 
 .image {
@@ -150,134 +149,91 @@ main {
 }
 
 .image img {
-    width: 100%;
+    width: 50vh;
     height: auto;
     display: block;
 }
 
 .text {
     flex: 1;
-    flex-direction:column;
     padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
 }
 
-.text h2 {
-    margin-bottom: 1rem;
-}
-
-p {
-    line-height: 1.4em;
-}
 /*Parliament*/
 .parliament {
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
     min-height: 100vh;
-    width: 100%
 }
 
 .image-parl {
     flex: 1;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .image-parl img {
-    width: 60vh;
+    width: 50vh;
     height: auto;
     display: block;
 }
 
 .text-parl {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin-top: 2.5rem;
+    flex: 1;
+    /*padding: 20px;*/
+    margin-top: 2rem;
     color: #ffffff;
 }
-
-.text-parl h2 {
-    margin-bottom: 1rem;
-}
-
-.text-parl p {
-    line-height: 1.5em;
-    text-align: justify;
-}
-
 /*Castle*/
 .castle {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
+    align-items: flex-start;
     min-height: 100vh;
-    width: 100%
 }
 
 .image-castle {
     flex: 1;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .image-castle img {
-    width: 60vh;
+    width: 50vh;
     height: auto;
     display: block;
 }
 
 .text-castle {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin-top: 2.5rem;
+    flex: 1;
+    /*padding: 20px;*/
+    margin-top: 2rem;
     color: #ffffff;
 }
-
-.text-castle h2 {
-    margin-bottom: 1rem;
-}
-
-.text-castle p {
-    line-height: 1.5em;
-    text-align: justify;
-}
-
-/*Matyas Templom*/
+/*Matthias Church*/
 .matthias-church {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
+    align-items: flex-start;
     min-height: 100vh;
-    width: 100%
 }
 
 .image-matt {
     flex: 1;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .image-matt img {
-    width: 55vh;
+    width: 50vh;
     height: auto;
     display: block;
 }
 
 .text-matt {
-    display: flex;
-    flex-direction: column;
+    flex: 1;
     padding: 20px;
+    margin-top: 2rem;
     color: #ffffff;
-}
-
-.text-matt h2 {
-    margin-bottom: 1rem;
-}
-
-.text-matt p {
-    line-height: 1.5em;
-    text-align: justify;
 }
 
 footer {
@@ -301,12 +257,21 @@ footer {
     color: white;
 }
 @media screen and (min-width: 768px) {
-    image {
-        flex: 1;
-    }
-    .image img {
+    .image-parl img {
         width: 75vh;
-        height: 100vh;
+        height: auto;
+        display: block;
+    }
+
+    .image-castle img {
+        width: 75vh;
+        height: auto;
+        display: block;
+    }
+
+    .image-matt img {
+        width: 75vh;
+        height: auto;
         display: block;
     }
 }
@@ -363,98 +328,202 @@ footer {
         display: flex;
         justify-content: space-evenly;
         align-items: last baseline;
-        }
-        
-        /*Chainbridge*/
-      .chainbridge {
-        flex-direction: row; 
     }
+   /*Chainbridge*/
+.chainbridge {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%*/
+}
 
-    .image {
-        flex: 1;
-    }
+.image {
+    flex: 1;
+    margin-top: 2rem;
+}
 
-    .text {
-        flex: 1;
-        padding: 20px;
-        margin-top: 2rem;
-        color: #ffffff;
-        flex-direction: column;
-        margin-right: 30rem;
-    }
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text {
+    flex: 1;
+    flex-direction:column;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+.text h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+/*Parliament*/
+.parliament {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%
+}
+
+.image-parl {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    height: 50vh;
+    flex: wrap;
+   
+    /*flex: 1;
+    margin-left: 107rem;*/
+}
+
+/*.image-parl img {
+    flex: 0.5;
+}*/
+
+.text-parl {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: transateY(-50%);
+    width: 50%;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 65rem;
+    color: #ffffff;
+}
+
+.text-parl h2 {
+    margin-bottom: 1rem;
+
+}
+
+.text-parl p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+/*Castle*/
+.castle {
+    display: flex;
+    justify-content: space-between;
+
+    /*align-items: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%*/
+}
+
+.image-castle {
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+.image-castle img {
+    width: 60vh;
+    height: auto;
+    display: block;
+}
+
+.text-castle {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 2.5rem;
+    color: #ffffff;
+}
+
+.text-castle h2 {
+    margin-bottom: 1rem;
+}
+
+.text-castle p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+/*Matyas Templom*/
 
 
+.matthias-church {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%
+}
+
+.image-matt {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 118rem;
+    height: 50vh;
+    flex: wrap;
+}
+
+
+.text-matt {
+    display: flex;
+    position: absolute;
+    /*top: 50%;*/
+    left: 20px;
+    transform: transateY(-50%);
+    width: 70%;
+    flex-direction: column;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/*.matthias-church {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%
+}*/
+
+/*.image-matt {
     
-    /*Parliament*/
-    .parliament {
-        flex-direction: row;
-    }
-    
-    .image-parl {
-        flex: 1;
-        margin-top: 3rem;
-    }
-    
-    .text-parl {
-        flex: 1;
-        padding: 20px;
-        margin-top: 2rem;
-        color: #ffffff;
-        flex-direction: column;
-        overflow:hidden;
-        margin-right: 5rem;
-    }
+    /*flex: 1;
+    margin-bottom: 2rem;
+}
 
-        .text-parl p {
-            margin-left: 20px;
-        }
+/*.image-matt img {
+    width: 55vh;
+    height: auto;
+    display: block;
+}
 
+.text-matt {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #ffffff;
+}*/
 
-        p {
-            line-height: 1.4rem;
-        }
-        
-        /*Castle*/
-        .castle {
-         flex-direction: row;
-        }
-        
-        .image-castle {
-            flex: 1;
-            margin-top: 3rem;
-        }
-        
-        .text-castle {
-            flex: 1;
-            padding: 20px;
-            margin-top: 2rem;
-            color: #ffffff;
-            flex-direction: column;
-        }
+.text-matt h2 {
+    margin-bottom: 1rem;
+}
 
-        .text-castle p {
-            margin-left: 20px;
-        }
-        
-        /*Matyas Templom*/
-        .matthias-church {
-          flex-direction: row;
-        }
-        
-        .image-matt {
-            flex: 1;
-            margin-top: 3rem;
-        }
-        
-        .text-matt {
-            flex: 1;
-            padding: 20px;
-            margin-top: 2rem;
-            color: #ffffff;
-            flex-direction: column;
-        }
-
-        .text-matt p{
-            margin-right: 20px;
-        }
+.text-matt p {
+    line-height: 1.5em;
+    text-align: justify;
+}
     }
