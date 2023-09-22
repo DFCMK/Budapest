@@ -417,6 +417,7 @@ footer {
     padding: 20px;
     margin-top: 10rem;
     color: #ffffff;
+    font-size: 1.4rem;
 }
 
 .text h2 {
@@ -462,6 +463,7 @@ footer {
     padding: 20px;
     margin-top: 50rem;
     color: #ffffff;
+    font-size: 1.4rem;
 }
 
 .text-parl h2 {
@@ -486,7 +488,7 @@ footer {
 
 .image-castle {
     flex: 1;
-    margin-bottom: 2rem;
+    margin-top: 7rem;
 }
 
 .image-castle img {
@@ -502,6 +504,7 @@ footer {
     margin-top: 10rem;
     margin-right: 10rem;
     color: #ffffff;
+    font-size: 1.4rem;
 }
 
 .text-castle h2 {
@@ -544,6 +547,7 @@ footer {
     flex-direction: column;
     padding: 20px;
     color: #ffffff;
+    font-size: 1.4rem;
 
 
 /*.matthias-church {
