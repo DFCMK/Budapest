@@ -514,6 +514,7 @@ footer {
     margin-top: 10rem;
     color: #ffffff;
     font-size: 1.4rem;
+    line-height: 1.4rem;
 }
 
 .text h2 {
@@ -549,9 +550,10 @@ footer {
     width: 50%;
     flex-direction: column;
     padding: 20px;
-    margin-top: 50rem;
+    margin-top: 40rem;
     color: #ffffff;
     font-size: 1.4rem;
+    line-height: 1.4rem;
 }
 
 .text-parl h2 {
@@ -588,6 +590,7 @@ footer {
     margin-right: 10rem;
     color: #ffffff;
     font-size: 1.4rem;
+    line-height: 1.4rem;
 }
 
 .text-castle h2 {
@@ -631,6 +634,7 @@ footer {
     padding: 20px;
     color: #ffffff;
     font-size: 1.4rem;
+    line-height: 1.4rem;
 }
 
 .text-matt h2 {
