@@ -158,67 +158,8 @@ main {
     flex: 1;
     padding: 20px;
     margin-top: 2rem;
-    color: #060606;
-}
-/*Gellert Hotel*/
-.gellert {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%
-}
-
-.gellert-image {
-    flex: 1;
-    margin-top: 4rem;
-}
-
-.gellert-hotel {
-    flex: 1;
-    margin-top: 2rem;
-}
-.gellert-image img {
-    width: 50vh;
-    height: auto;
-    display: block;
-}
-
-.gellert-text {
-    flex: 1;
-    padding: 20px;
-    margin-top: 2rem;
-    color: #040404;
-}
-/*Szimpla*/
-.szimpla {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%
-}
-
-.szimpla-image {
-    flex: 1;
-    margin-top: 4rem;
-}
-
-.szimpla-tv {
-    flex: 1;
-    margin-top: 2rem;
-}
-.szimpla-image img {
-    width: 50vh;
-    height: auto;
-    display: block;
-}
-
-.szimpla-text {
-    flex: 1;
-    padding: 20px;
-    margin-top: 2rem;
     color: #ffffff;
 }
-
 
 /*Parliament*/
 .parliament {
@@ -294,6 +235,168 @@ main {
     margin-top: 2rem;
     color: #060606;
 }
+/*Szimpla*/
+.szimpla {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.szimpla-image {
+    flex: auto;
+    max-width: 50%;
+    max-height: 50vh;
+}
+
+.szimpla-tv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2px;
+    margin-right: auto;
+}
+.szimpla-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 4rem;
+}
+
+.szimpla-text {
+    flex-grow: 1;
+    max-width: 75vh;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.szimpla-text h2 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+/*Gellert Hotel*/
+.gellert {
+    display: flex;
+    flex-direction: row;
+}
+
+.gellert-image {
+    flex: auto;
+    max-width: 50%;
+    margin-top: 4rem;
+    max-height: 40vh;
+}
+
+.gellert-hotel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2px;
+    margin-right: auto;
+}
+.gellert-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+}
+
+.gellert-text {
+    flex-grow: 1;
+    max-width: 75vh;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+/*Szechenyi*/
+.szechenyi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%
+}
+
+.szechenyi-image {
+    flex: 1;
+    margin-top: 2rem;
+    object-fit: contain;
+    margin: 20px;
+}
+
+.szechenyi-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 6rem;
+}
+
+.szechenyi-pool img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 6rem;
+}
+
+.szechenyi-text {
+    flex-grow: 1;
+    max-width: 75vh;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+/*Market*/
+.market {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.market-image {
+    flex: auto;
+    max-width: 50%;
+    max-height: 50vh;
+}
+
+.market-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2px;
+    margin-right: auto;
+}
+.market-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 4rem;
+}
+
+.market-text {
+    flex-grow: 1;
+    max-width: 75vh;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.market-text h2 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
 
 footer {
     background-color: rgba(6, 6, 6, 0.85);
@@ -362,7 +465,6 @@ footer {
         cursor: pointer;
         background-color: rgba(239, 15, 15, 0.85);
     }
-    }
 
     #text-overlay:hover {
         opacity: 1;
@@ -405,12 +507,6 @@ footer {
     margin-top: 2rem;
 }
 
-/*.image img {
-    width: 100%;
-    height: auto;
-    display: block;
-}*/
-
 .text {
     flex: 1;
     flex-direction:column;
@@ -443,15 +539,7 @@ footer {
     margin: 20px;
     height: 50vh;
     flex: wrap;
-   
-    /*flex: 1;
-    margin-left: 107rem;*/
 }
-
-/*.image-parl img {
-    flex: 0.5;
-}*/
-
 .text-parl {
     display: flex;
     position: absolute;
@@ -479,11 +567,6 @@ footer {
     flex-direction: row;
     min-height: 100vh;
     width: 100%
-
-    /*align-items: flex-start;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 100%*/
 }
 
 .image-castle {
@@ -548,35 +631,7 @@ footer {
     padding: 20px;
     color: #ffffff;
     font-size: 1.4rem;
-
-
-/*.matthias-church {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 100%
-}*/
-
-/*.image-matt {
-    
-    /*flex: 1;
-    margin-bottom: 2rem;
 }
-
-/*.image-matt img {
-    width: 55vh;
-    height: auto;
-    display: block;
-}
-
-.text-matt {
-    display: flex;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    color: #ffffff;
-}*/
 
 .text-matt h2 {
     margin-bottom: 1rem;
@@ -613,6 +668,7 @@ footer {
     margin-top: 2rem;
     color: #ffffff;
     line-height: 1.4rem;
+    font-size: 1.4rem;
 }
 .szimpla-text h2 {
     text-decoration: underline;
@@ -645,14 +701,82 @@ footer {
     max-width: 50%;
     padding: 20px;
     margin-top: 2rem;
-    color: #060606;
+    color: #ffffff;
     line-height: 1.4rem;
+    font-size: 1.4rem;
 }
 .gellert-text h2 {
     text-decoration: underline;
     margin-bottom: 1rem;
 }
+/*Szechenyi*/
+.szechenyi {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .szechenyi-image {
+    flex: auto;
+    margin-top: 2rem;
+    max-height: 40vh;
+    max-width: 40%;
+  }
 
+  .szechenyi-pool {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    margin-right: auto;
+  }
 
+  /*.szechenyi-text {
+    flex: 2;
+    max-width: 50%;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    line-height: 1.4rem;
+    font-size: 1.4rem;
+}*/
+.szechenyi-text h2 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+/*Market*/
+.market {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .market-image {
+    flex: auto;
+    max-width: 50%;
+    margin-top: 2rem;
+    max-height: 40vh;
+  }
 
+  .market-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    margin-right: auto;
+  }
+
+  .market-text {
+    flex: flex;
+    max-width: 50%;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    line-height: 1.4rem;
+    font-size: 1.4rem;
+}
+.market-text h2 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
 }
