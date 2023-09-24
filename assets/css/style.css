@@ -75,7 +75,7 @@ nav a:hover {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
-    background: whitesmoke;
+    background: rgb(0, 0, 0);
     height: 2px;
     width: 2em;
     position: relative;
@@ -233,39 +233,39 @@ main {
     flex: 1;
     padding: 20px;
     margin-top: 2rem;
-    color: #060606;
+    color: #ffffff;
 }
 /*Szimpla*/
 .szimpla {
     display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
 }
 
 .szimpla-image {
-    flex: auto;
-    max-width: 50%;
-    max-height: 50vh;
+    flex: 1;
+    margin-top: 2rem;
 }
 
 .szimpla-tv {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 2px;
-    margin-right: auto;
+    flex: 1;
+    margin-top: 2rem;
 }
 .szimpla-image img {
     width: 50vh;
     height: auto;
     display: block;
-    margin-top: 4rem;
+}
+
+.szimpla-tv img {
+    width: 50vh;
+    height: auto;
+    display: block;
 }
 
 .szimpla-text {
-    flex-grow: 1;
-    max-width: 75vh;
+    flex: 1;
     padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
@@ -281,23 +281,19 @@ main {
 /*Gellert Hotel*/
 .gellert {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
 }
 
 .gellert-image {
-    flex: auto;
-    max-width: 50%;
-    margin-top: 4rem;
-    max-height: 40vh;
+   flex: 1;
+    margin-top: 2rem;
 }
 
 .gellert-hotel {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 2px;
-    margin-right: auto;
+    flex: 1;
+    margin-top: 2rem;
 }
 .gellert-image img {
     width: 50vh;
@@ -305,9 +301,14 @@ main {
     display: block;
 }
 
+.gellert-hotel img {
+    width: 50vh;
+    height: auto;
+    display: block;
+}
+
 .gellert-text {
-    flex-grow: 1;
-    max-width: 75vh;
+    flex: 1;
     padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
@@ -320,33 +321,28 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%
+    min-height: 100vh;
 }
 
 .szechenyi-image {
     flex: 1;
     margin-top: 2rem;
-    object-fit: contain;
-    margin: 20px;
 }
 
 .szechenyi-image img {
-    width: 100%;
+    width: 50vh;
     height: auto;
     display: block;
-    margin-top: 6rem;
 }
 
 .szechenyi-pool img {
-    width: 100%;
+    width: 50vh;
     height: auto;
     display: block;
-    margin-top: 6rem;
 }
 
 .szechenyi-text {
-    flex-grow: 1;
-    max-width: 75vh;
+    flex: 1;
     padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
@@ -357,19 +353,19 @@ main {
 /*Market*/
 .market {
     display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
 }
 
 .market-image {
-    flex: auto;
-    max-width: 50%;
-    max-height: 50vh;
+    flex: 1;
+    margin-top: 2rem;
 }
 
 .market-two {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     margin: 2px;
@@ -379,12 +375,16 @@ main {
     width: 50vh;
     height: auto;
     display: block;
-    margin-top: 4rem;
+}
+
+.market-two img {
+    width: 50vh;
+    height: auto;
+    display: block;
 }
 
 .market-text {
-    flex-grow: 1;
-    max-width: 75vh;
+   flex: 1;
     padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
@@ -418,23 +418,41 @@ footer {
     font-size: 160%;
     color: white;
 }
+
 @media screen and (min-width: 768px) {
     .image-parl img {
         width: 75vh;
-        height: auto;
-        display: block;
     }
 
-    .image-castle img {
+    .image-castle img{
         width: 75vh;
-        height: auto;
-        display: block;
     }
-
     .image-matt img {
         width: 75vh;
-        height: auto;
-        display: block;
+    }
+    .szimpla-image img {
+        width: 75vh;
+    }
+    .szimpla-tv img {
+        width: 75vh;
+    }
+    .gellert-image img {
+        width: 75vh;
+    }
+    .gellert-hotel img {
+        width: 75vh;
+    }
+    .szechenyi-image img {
+        width: 75vh;
+    }
+    .szechenyi-pool img {
+        width: 75vh;
+    }
+    .market-image img {
+        width: 75vh;
+    }
+    .market-two img {
+        width: 75vh;
     }
 }
 
@@ -640,9 +658,168 @@ footer {
 .text-matt h2 {
     margin-bottom: 1rem;
 }
+/*Copy of general rules above
+.szimpla {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
 
+.szimpla-image {
+    flex: auto;
+    max-width: 50%;
+    max-height: 50vh;
+}
 
-/*Szimpla Kert*/
+.szimpla-tv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2px;
+    margin-right: auto;
+}
+.szimpla-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 4rem;
+}
+
+.szimpla-text {
+    flex-grow: 1;
+    max-width: 75vh;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.szimpla-text h2 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+/*Gellert Hotel
+.gellert {
+    display: flex;
+    flex-direction: row;
+}
+
+.gellert-image {
+    flex: auto;
+    max-width: 50%;
+    margin-top: 4rem;
+    max-height: 40vh;
+}
+
+.gellert-hotel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2px;
+    margin-right: auto;
+}
+.gellert-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+}
+
+.gellert-text {
+    flex-grow: 1;
+    max-width: 75vh;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+/*Szechenyi
+.szechenyi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%
+}
+
+.szechenyi-image {
+    flex: 1;
+    margin-top: 2rem;
+    object-fit: contain;
+    margin: 20px;
+}
+
+.szechenyi-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 6rem;
+}
+
+.szechenyi-pool img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 6rem;
+}
+
+.szechenyi-text {
+    flex-grow: 1;
+    max-width: 75vh;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+/*Market
+.market {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.market-image {
+    flex: auto;
+    max-width: 50%;
+    max-height: 50vh;
+}
+
+.market-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2px;
+    margin-right: auto;
+}
+.market-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 4rem;
+}
+
+.market-text {
+    flex-grow: 1;
+    max-width: 75vh;
+    padding: 20px;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.market-text h2 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+/*Original media query rules*/
 
 .szimpla {
     display: flex;
@@ -652,7 +829,7 @@ footer {
   .szimpla-image {
     flex: auto;
     max-width: 50%;
-    margin-top: 2rem;
+    margin-top: 4rem;
     max-height: 40vh;
   }
 
@@ -663,16 +840,31 @@ footer {
     align-items: center;
     margin: 20px;
     margin-right: auto;
+    margin-top: 4rem;
+  }
+
+  .szimpla-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 4rem;
+  }
+
+  .szimpla-tv img {
+    width: 50vh;
+    height: auto;
+    display: block;
   }
 
   .szimpla-text {
-    flex: flex;
+    flex: 6;
     max-width: 50%;
     padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
     line-height: 1.4rem;
     font-size: 1.4rem;
+    margin-top: 4rem;
 }
 .szimpla-text h2 {
     text-decoration: underline;
@@ -700,8 +892,22 @@ footer {
     margin-right: auto;
   }
 
+  .gellert-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 4rem;
+  }
+
+  .gellert-hotel img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 5rem;
+  }
+
   .gellert-text {
-    flex: flex;
+    flex: 4;
     max-width: 50%;
     padding: 20px;
     margin-top: 2rem;
@@ -735,15 +941,30 @@ footer {
     margin-right: auto;
   }
 
-  /*.szechenyi-text {
-    flex: 2;
+  .szechenyi-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 4rem;
+  }
+
+  .szechenyi-pool img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 5rem;
+  }
+
+  .szechenyi-text {
+    flex: 6;
     max-width: 50%;
     padding: 20px;
     margin-top: 2rem;
     color: #ffffff;
     line-height: 1.4rem;
     font-size: 1.4rem;
-}*/
+  }
+
 .szechenyi-text h2 {
     text-decoration: underline;
     margin-bottom: 1rem;
@@ -770,8 +991,22 @@ footer {
     margin-right: auto;
   }
 
+  .market-image img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 4rem;
+  }
+
+  .market-two img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-top: 5rem;
+  }
+
   .market-text {
-    flex: flex;
+    flex: 6;
     max-width: 50%;
     padding: 20px;
     margin-top: 2rem;
