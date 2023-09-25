@@ -408,6 +408,30 @@ main {
 #photo {
     line-height: 0;
 }
+/*Contact*/
+.contact {
+    width: 80%;
+    margin: 50px auto;
+    margin-top: 4rem;
+    color: #ffffff;
+}
+
+.contact-box {
+    display: flex;
+    background-color: rgba(232, 15, 15, 1);
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #14d317;
+    color: #fff;
+}
 
 footer {
     background-color: rgba(6, 6, 6, 0.85);
