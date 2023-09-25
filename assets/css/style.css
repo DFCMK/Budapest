@@ -402,6 +402,7 @@ main {
 #photo img {
     width: 100%;
     line-height: 1em;
+    column-fill: balance;
 }
 
 #photo {
@@ -428,7 +429,13 @@ footer {
     font-size: 160%;
     color: white;
 }
-
+@media screen and (min-width: 576px) {
+    /*Gallery based on love running code*/
+    #photo {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 @media screen and (min-width: 768px) {
     .image-parl img {
         width: 75vh;
@@ -463,6 +470,15 @@ footer {
     }
     .market-two img {
         width: 75vh;
+    }
+
+    /*Gallery based on love running code*/
+    #photo {
+        column-count: 2;
+    }
+
+    .matt-bg {
+        height: 395px;
     }
 }
 
@@ -868,4 +884,20 @@ footer {
     text-decoration: underline;
     margin-bottom: 1rem;
 }
+
+ /*Gallery based on love running code*/
+ #photo {
+    column-count: 4;
+ }
+ .basilica {
+    height: 575px;
+ }
+
+ .basilica-night {
+    height: 600px;
+ }
+
+ .lanzhid {
+    height: 950px;
+ }
 }
