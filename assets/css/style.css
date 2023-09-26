@@ -329,6 +329,11 @@ main {
     line-height: 1.4rem;
 }
 
+.gellert-text h2 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
 /*Szechenyi*/
 .szechenyi {
     display: flex;
@@ -361,6 +366,11 @@ main {
     color: #ffffff;
     font-size: 1.4rem;
     line-height: 1.4rem;
+}
+
+.szechenyi-text h2 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
 }
 
 /*Market*/
