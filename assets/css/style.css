@@ -412,6 +412,9 @@ main {
 
 /*Gallery (from love running project)*/
 
+#gallery {
+    margin-top: 3.2rem;
+}
 #photo img {
     width: 100%;
     line-height: 1em;
@@ -960,7 +963,7 @@ footer {
     column-count: 4;
  }
  .basilica {
-    height: 575px;
+    height: 560px;
  }
 
  .basilica-night {
@@ -969,5 +972,12 @@ footer {
 
  .lanzhid {
     height: 950px;
+ }
+ .matt-bg {
+    height: 420px;
+ }
+
+ .fog {
+    height: 970px;
  }
 }
