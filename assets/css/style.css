@@ -135,6 +135,19 @@ main {
     padding: 20px;
 }
 
+.introduction {
+    color: #ffffff;
+    margin-top: 2rem;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.introduction h2 {
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
 /*Chainbridge*/
 .chainbridge {
     display: flex;
