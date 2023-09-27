@@ -51,6 +51,16 @@ This Website is a comprehensive travel guide designed to help tourists and histo
 
 ![Picture from Contact section](./assets/images/Wireframe-contact.png "Contact")
 
+![Picture from mobile home section](./assets/images/Wireframe-mobile-home.png "Home-mobile")
+
+![Picture from Contact section](./assets/images/Wireframe-mobile-historical.png "Historical Places Mobile")
+
+![Picture from Contact section](./assets/images/Wireframe-mobile-fun.png "Fun Places Mobile")
+
+![Picture from Contact section](./assets/images/Wireframe-mobile-gallery.png "Gallery-mobile")
+
+![Picture from Contact section](./assets/images/Wireframe-mobile-contact.png "Contact-mobile")
+
 
 
 
