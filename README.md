@@ -133,19 +133,19 @@ The Fun Places site want to give the user ideas about what to do in Budapest to 
 
 - [Gallery](#galllery:)
 
-The Gallery page was created to increase the desire of the user to visit Budapest with a visualising the city. 
+The Gallery page was created to increase the desire of the user to visit Budapest with visualising the city with photos. 
 
 ![Screenshoot from Gallery](./assets/images/gallery-budapest.png "Gallery")
 
 - [Contact](#contact):
 
-The Contact page is giving the user the possibility to contact the Travel Guide for further information and Sign up for an exclusive newsletter to keep updated about the latest historical insights.
+The Contact page is giving the user the possibility to contact the Travel Guide for further information and Sign up for an exclusive newsletter to stay updated about the latest historical insights.
 
 ![Screenshoot from Contact page](./assets/images/contact-page.png "Contactpage")
 
 - Confirmation Form: 
 
-When the user subscribe to the newsletter he gets to the confirmation file with a background image of the Chainbridge and a green success message and a clickable [Home](#home) link, which brings the user back to the Homepage.
+When users subscribe to the newsletter they get redirected to the confirmation page, with a background image of the Chainbridge and a green success message and a clickable [Home](#home) link, so the user can get back to the Homepage.
 The green text color was choosen because it is comonly known as a positive signal color.
 
 ![Screenshoot from Confirmation page](./assets/images/confirmation.png "Confirmation page")
