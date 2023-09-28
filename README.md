@@ -84,7 +84,68 @@ The color scheme choosen is one based on Monochromatic color Schemes, see blow i
 
 The Website Budapest - A Historical Travel Guide got build to give users who visit the Website a Inspiration and historical insights about Budapest.
 
-- Navigation Bar: 
+- Navigation Menu:
+
+  - located at the top of the page, is fully responsive and contains all links to all pages of the site.
+
+  - The logo os clickable and brings the user back to the Home page.
+
+  ![Screenshot from Navigation Menu](./assets/images/Navigation-menu.png "Navigation Menu")
+
+- [Home](#home):
+
+Contains a background image of the Parliament with a hover effect in the middle of the Page. When the user hover on a Desktop or laptop over the middle of the image, a welcome Text appears. On mobile devices or tablet the text appears without the blue background on the center of the page.
+
+![Screenshoot from Homepage](./assets/images/Home-desktop.png "Hover effect on Desktops and Laptops")
+
+![Screenshoot from Homepage](./assets/images/Home-mobile.png "Welcome banner on mobile devices")
+
+- Introduction to page:
+
+below the background image there are two text blocks with two subheadings and one main heading to give the user an idea what to expect from this side.
+
+- Footer: 
+
+  - The Footer contains clickable social media links of the Travel Guide, which direct the user directly to the selected side in a new tap.
+
+  - Once the users visited the social media sites of the Guide, they can access reviews, feedbacks and more informaion about the Guide and what it does.
+  
+  - The user can decide based on this information, if it would be worrthy to conect with the Travel Guide also on social media.
+
+  ![social media links in footer](./assets/images/social-media.png "social media links")
+
+
+
+![Screenshoot from Homepage](./assets/images/introduction.png "Introduction section below background image")
+
+- [Historical Places](#historical-places):
+
+The Historical Places page give the user a short summary about the historical background of some places in Budapest, it's purpose is only to give an Inspiration for places to visit.
+
+![Screenshoot from Historical Places](./assets/images/introduction.png "Historical places")
+
+- [Fun Places](#fun-places):
+
+The Fun Places site want to give the user ideas about what to do in Budapest to have fun and enjoy themself.
+
+
+![Screenshoot from Fun Places](./assets/images/introduction.png "Fun places")
+
+- [Gallery](#galllery:)
+
+The Gallery page was created to increase the desire of the user to visit Budapest with a visualising the city. 
+
+![Screenshoot from Gallery](./assets/images/gallery-budapest.png "Gallery")
+
+- [Contact](#contact):
+
+The Contact page is giving the user the possibility to contact the Travel Guide for further information and Sign up for an exclusive newsletter to keep updated about the latest historical insights.
+
+![Screenshoot from Contact page](./assets/images/contact-page.png "Contactpage")
+
+
+
+
 
 
 
