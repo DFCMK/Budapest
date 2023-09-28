@@ -28,14 +28,23 @@ This Website is a comprehensive travel guide designed to help tourists and histo
     - [Introduction](#introduction)
 
     - [Footer](#footer)
+    
+    - [Historical Places](#historical-places)
+    
+    - [Fun Places](#fun-places)
+    
+    - [Gallery](#gallery)
+    
+    - [Contact](#contact)
 
-- [Historical Places](#historical-places)
+- [Technologies Used](#technologies-used):
 
-- [Fun Places](#fun-places)
+  - [HTML5](#html5): provides the content and structure for the website.
 
-- [Gallery](#gallery)
+- [CSS](#css): provide the styling.
 
-- [Contact](#contact)
+- [Balssamiq](#balsamiq)
+
 
 ## User Experience UX
 
@@ -69,7 +78,7 @@ Budapest - A Historical Travel Guide have five pages. The [Home](#home) page is 
 
 ### Design Choices
 
-- [Typography](#typograpshy)
+- [Typography](#typography)
 
 I have choosen the font Lato for the Website because it is supposed to be a travel guide which provide mostly information about Budapest. I felt like other fonts could might be to distracting while reading the Text section on the page.
 On the [Home](#home) the welcome Text which appears when the User Hover over the middle on a Laptop or Desktop is in italic to transmit a warm welcome feeling to the Page. The headings of the introduction Section underneth the Background image on the [Home](#home) are in italic to accentuate them from the Text sections below.
@@ -149,6 +158,8 @@ When users subscribe to the newsletter they get redirected to the confirmation p
 The green text color was choosen because it is comonly known as a positive signal color.
 
 ![Screenshoot from Confirmation page](./assets/images/confirmation.png "Confirmation page")
+
+
 
 
 
