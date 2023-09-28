@@ -143,6 +143,14 @@ The Contact page is giving the user the possibility to contact the Travel Guide 
 
 ![Screenshoot from Contact page](./assets/images/contact-page.png "Contactpage")
 
+- Confirmation Form: 
+
+When the user subscribe to the newsletter he gets to the confirmation file with a background image of the Chainbridge and a green success message and a clickable [Home](#home) link, which brings the user back to the Homepage.
+The green text color was choosen because it is comonly known as a positive signal color.
+
+![Screenshoot from Confirmation page](./assets/images/confirmation.png "Confirmation page")
+
+
 
 
 
