@@ -95,12 +95,6 @@ nav a:hover {
     top: 7px;
 }/*End of tutorial based code*/
 
-
-#logo {
-    font-size: auto;
-
-}
-
 main {
     flex: 1 0 auto;
     display: flex;
@@ -178,6 +172,7 @@ main {
 /*Parliament*/
 .parliament {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
 }
@@ -686,16 +681,16 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    margin: 10x;
+    margin: 10px;
     height: 50vh;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 .text-parl {
     display: flex;
     position: absolute;
     top: 50%;
     left: 20px;
-    transform: transateY(-50%);
+    transform: translateY(-50%);
     width: 50%;
     flex-direction: column;
     padding: 20px;
@@ -767,7 +762,7 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
 
@@ -775,7 +770,7 @@ footer {
     display: flex;
     position: absolute;
     left: 20px;
-    transform: transateY(-50%);
+    transform: translateY(-50%);
     width: 50%;
     flex-direction: column;
     padding: 20px;
