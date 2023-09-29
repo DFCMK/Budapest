@@ -246,6 +246,13 @@ You also can create and name the directory where the clone should be saved in, w
    - The inspiration for the Project came during creation process. It was a own idea and didn't came from looking at other Projects.
    - <a href="https://balsamiq.cloud/s3wc28z/p2hs46j/r2278">Balsamiq</a> was used to create the wireframes.
 
+   #### Media
+
+   - background image on Home page came from <a href="https://www.pexels.com/">pexels</a>
+
+   - images on other pages came from <a href="https://www.pexels.com/">unspash</a> and <a href="https://www.istockphoto.com">istockphoto</a>
+
+ 
 
 
 
