@@ -243,8 +243,21 @@ You also can create and name the directory where the clone should be saved in, w
    - The colour palate was compiled by  <a href="https://www.w3schools.com/colors/colors_monochromatic.asp">W3Schools</a>
    - The icons came from <a href="https://fontawesome.com/search?q=swi&o=r&m=free">Font Awesome</a>
    - The Navigation Menu got created with a <a href="https://www.youtube.com/watch?v=8QKOaTYvYUA">YouTube tutorial.</a>
-   - The inspiration for the Project came during creation process. It was a own idea and didn't came from looking at other Projects.
+   - The inspiration for the Project came during creation process.
    - <a href="https://balsamiq.cloud/s3wc28z/p2hs46j/r2278">Balsamiq</a> was used to create the wireframes.
+
+   - The Gallery was build with code based on the <a href="https://github.com/DFCMK/Love-Running">Love Running</a>
+
+   - The content of [Chainbridge](#chainbridge) on the [Historical Places](#historical-places) is mostly summarized from the book <b><q>Hungry History and Culture</q></b> chapter: <b><q>Reformation period</q></b> sub chapter: <b><q>Hitel written by Istvan Szechenyi 1830</p></b> 
+
+   - The rest of the content are summerised wikipedia articles, see below: 
+   <a href="https://en.wikipedia.org/wiki/Hungarian_Parliament_Building">Hungarian Parliament</a>
+   <a href="https://en.wikipedia.org/wiki/Buda_Castle">Buda Castle</a> 
+   <a href="https://en.wikipedia.org/wiki/Matthias_Church">Matthias Church</a> 
+   <a href="https://en.wikipedia.org/wiki/Szimpla_Kert">Szimpla Kert</a> 
+   <a href="https://en.wikipedia.org/wiki/Gell%C3%A9rt_Baths">Gellert Bath</a>
+   <a href="https://en.wikipedia.org/wiki/Sz%C3%A9chenyi_thermal_bath">Széchenyi Bath</a>
+   <a href="https://en.wikipedia.org/wiki/Great_Market_Hall,_Budapest">The Great Market Hall</a>     
 
    #### Media
 
