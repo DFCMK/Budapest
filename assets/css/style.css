@@ -648,14 +648,14 @@ footer {
 
 .image {
     flex: 1;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
 .text {
     flex: 1;
     flex-direction:column;
     padding: 20px;
-    margin-top: 10rem;
+    margin-top: 6rem;
     color: #ffffff;
     font-size: 1.4rem;
     line-height: 1.4rem;
@@ -673,7 +673,7 @@ footer {
     align-items: flex-start;
     flex-direction: row;
     min-height: 100vh;
-    width: 100%
+    width: 100%;
 }
 
 .image-parl {
@@ -681,7 +681,7 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    margin: 10px;
+    margin-top: 15rem;
     height: 50vh;
     flex-wrap: wrap;
 }
@@ -694,7 +694,7 @@ footer {
     width: 50%;
     flex-direction: column;
     padding: 20px;
-    margin-top: 40rem;
+    margin-top: 80rem;
     color: #DDE3FD;
     font-size: 1.4rem;
     line-height: 1.4rem;
@@ -730,9 +730,8 @@ footer {
 .text-castle {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin-top: 20rem;
-    margin-right: 10rem;
+    padding: 40px;
+    margin-top: 14rem;
     color: #DDE3FD;
     font-size: 1.4rem;
     line-height: 1.4rem;
@@ -775,7 +774,7 @@ footer {
     flex-direction: column;
     padding: 20px;
     color: #DDE3FD;
-    margin-top: 5rem;
+    margin-top: 20rem;
     font-size: 1.4rem;
     line-height: 1.4rem;
 }
@@ -819,12 +818,12 @@ footer {
     width: 50vh;
     height: auto;
     display: block;
+    margin-top: 5rem;
   }
 
   .szimpla-text {
     flex: 6;
     max-width: 50%;
-    padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
     line-height: 1.4rem;
