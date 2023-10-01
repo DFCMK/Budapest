@@ -157,7 +157,7 @@ main {
 }
 
 .image img {
-    width: 50vh;
+    width: 55vh;
     height: auto;
     display: block;
 }
@@ -183,7 +183,7 @@ main {
 }
 
 .image-parl img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
@@ -191,7 +191,6 @@ main {
 .text-parl {
     flex: 1;
     padding: 20px;
-    margin-top: 2rem;
     color: #DDE3FD;
 }
 /*Castle*/
@@ -208,7 +207,7 @@ main {
 }
 
 .image-castle img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
@@ -233,7 +232,7 @@ main {
 }
 
 .image-matt img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
@@ -528,45 +527,29 @@ footer {
     font-size: 160%;
     color: #DDE3FD;
 }
+
+
 @media screen and (min-width: 576px) {
     /*Gallery based on love running code*/
     #photo {
         column-count: 2;
         column-gap: 0;
     }
-}
-@media screen and (min-width: 768px) {
-    .image-parl img {
-        width: 75vh;
-    }
 
-    .image-castle img{
-        width: 75vh;
-    }
-    .image-matt img {
-        width: 75vh;
-    }
-    .szimpla-image img {
-        width: 75vh;
-    }
-    .szimpla-tv img {
-        width: 75vh;
-    }
-    .gellert-image img {
-        width: 75vh;
-    }
-    .gellert-hotel img {
-        width: 75vh;
-    }
-    .szechenyi-image img {
-        width: 75vh;
-    }
-    .szechenyi-pool img {
-        width: 75vh;
-    }
-    .market-image img {
-        width: 75vh;
-    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .image-parl img,
+    .image-castle img,
+    .image-matt img,
+    .szimpla-image img,
+    .szimpla-tv img,
+    .gellert-image img,
+    .gellert-hotel img,
+    .szechenyi-image img,
+    .szechenyi-pool img,
+    .market-image img,
     .market-two img {
         width: 75vh;
     }
@@ -580,6 +563,58 @@ footer {
         height: 395px;
     }
 }
+@media screen and (max-width: 992px) {
+    .chainbridge,
+    .parliament,
+    .castle,
+    .matthias-church,
+    .szimpla,
+    .gellert,
+    .szechenyi,
+    .market {
+      flex-direction: column;
+    }
+  
+    .text,
+    .text-parl,
+    .text-castle,
+    .text-matt,
+    .szimpla-text,
+    .gellert-text,
+    .szechenyi-text,
+    .market-text {
+      font-size: 16px;
+      padding: 20px;
+    }
+  
+    .parliament {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image-parl {
+      flex: 1;
+    }
+  
+    .text-parl {
+      flex: 1;
+      padding: 20px;
+      color: #DDE3FD;
+      font-size: 1.4em;
+      line-height: 1.4em;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+  
+    .image {
+      width: 100%;
+      height: auto;
+    }
+  }
 
 @media screen and (min-width: 992px) {
     .nav-toggle-label {
@@ -657,8 +692,8 @@ footer {
     padding: 20px;
     margin-top: 6rem;
     color: #ffffff;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.4em;
+    line-height: 1.4em;
 }
 
 .text h2 {
@@ -690,14 +725,13 @@ footer {
     position: absolute;
     top: 50%;
     left: 20px;
-    transform: translateY(-50%);
+    transform: translateY(120%);
     width: 50%;
     flex-direction: column;
     padding: 20px;
-    margin-top: 80rem;
     color: #DDE3FD;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.4em;
+    line-height: 1.4em;
 }
 
 .text-parl h2 {
@@ -724,26 +758,20 @@ footer {
     width: 60vh;
     height: auto;
     display: block;
-    margin-top: 10rem;
 }
 
 .text-castle {
     display: flex;
     flex-direction: column;
     padding: 40px;
-    margin-top: 14rem;
+    margin-top: 5rem;
     color: #DDE3FD;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.4em;
+    line-height: 1.4em;
 }
 
 .text-castle h2 {
-    margin-bottom: 1rem;
-}
-
- p {
-    line-height: 1.4em;
-    text-align: justify;
+    margin-bottom: 1em;
 }
 
 /*Matyas Templom*/
@@ -775,16 +803,14 @@ footer {
     padding: 20px;
     color: #DDE3FD;
     margin-top: 20rem;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.4em;
+    line-height: 1.4em;
 }
 
 .text-matt h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
-
-/*Original media query rules*/
-
+/*Fun Places*/
 .szimpla {
     display: flex;
     flex-direction: row;
@@ -826,13 +852,13 @@ footer {
     max-width: 50%;
     margin-top: 2rem;
     color: #DDE3FD;
-    line-height: 1.4rem;
-    font-size: 1.4rem;
+    line-height: 1.4em;
+    font-size: 1.4em;
     margin-top: 4rem;
 }
 .szimpla-text h2 {
     text-decoration: underline;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 /*Gellert*/
 .gellert {
@@ -876,12 +902,12 @@ footer {
     padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
-    line-height: 1.4rem;
-    font-size: 1.4rem;
+    line-height: 1.4em;
+    font-size: 1.4em;
 }
 .gellert-text h2 {
     text-decoration: underline;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 /*Szechenyi*/
 .szechenyi {
@@ -925,13 +951,13 @@ footer {
     padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
-    line-height: 1.4rem;
-    font-size: 1.4rem;
+    line-height: 1.4em;
+    font-size: 1.4em;
   }
 
 .szechenyi-text h2 {
     text-decoration: underline;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 /*Market*/
 .market {
@@ -975,12 +1001,12 @@ footer {
     padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
-    line-height: 1.4rem;
-    font-size: 1.4rem;
+    line-height: 1.4em;
+    font-size: 1.4em;
 }
 .market-text h2 {
     text-decoration: underline;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
  /*Gallery based on love running code*/
@@ -1006,3 +1032,35 @@ footer {
     height: 970px;
  }
 }
+
+@media screen and (min-width: 1200px) {
+    .chainbridge,
+    .parliament,
+    .castle,
+    .matthias-church,
+    .szimpla,
+    .gellert,
+    .szechenyi,
+    .market {
+      flex-direction: row;
+    }
+    
+    .text-parl {
+        top: 50%;
+        left: 0;
+        transform: translateY(80%);
+      }
+
+      .image-castle img {
+        margin-top: 20rem;
+      }
+
+      .text-castle {
+        margin-top: 20rem;
+      }
+
+      .text-matt {
+        margin-top: 25rem;
+      }
+    }
+  
