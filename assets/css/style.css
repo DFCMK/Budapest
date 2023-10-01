@@ -1048,19 +1048,58 @@ footer {
     .text-parl {
         top: 50%;
         left: 0;
-        transform: translateY(80%);
+        transform: translateY(95%);
       }
 
       .image-castle img {
-        margin-top: 20rem;
+        margin-top: 35rem;
       }
 
       .text-castle {
-        margin-top: 20rem;
+        margin-top: 35rem;
       }
 
       .text-matt {
-        margin-top: 25rem;
+        margin-top: 30rem;
+      }
+    }
+
+    @media screen and (width: 1024px) {
+        .chainbridge,
+    .parliament,
+    .castle,
+    .matthias-church,
+    .szimpla,
+    .gellert,
+    .szechenyi,
+    .market {
+      flex-direction: row;
+    }
+    
+    .text-parl {
+        top: 50%;
+        left: 0;
+        transform: translateY(100%);
+      }
+      .image-parl img {
+        width: 65vh;
+      }
+      .image-castle img {
+        width: 75vh;
+        margin-top: 75rem;
+      }
+
+      .text-castle {
+        margin-top: 75rem;
+      }
+
+      .text-matt {
+        margin-top: 42rem;
+        padding: 20px;
+      }
+
+      .image-matt img {
+        width: 66vh;
       }
     }
   
