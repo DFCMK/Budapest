@@ -192,6 +192,7 @@ main {
     flex: 1;
     padding: 20px;
     color: #DDE3FD;
+    margin-top: 2rem;
 }
 /*Castle*/
 .castle {
@@ -415,7 +416,7 @@ main {
     margin-bottom: 1rem;
 }
 
-/*Gallery (from love running project)*/
+/*Gallery (based on love running project)*/
 
 #gallery {
     margin-top: 3.2rem;
@@ -543,7 +544,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    
+    .image img,
     .image-parl img,
     .image-castle img,
     .image-matt img,
@@ -567,58 +568,6 @@ footer {
         height: 395px;
     }
 }
-@media screen and (max-width: 992px) {
-    .chainbridge,
-    .parliament,
-    .castle,
-    .matthias-church,
-    .szimpla,
-    .gellert,
-    .szechenyi,
-    .market {
-      flex-direction: column;
-    }
-  
-    .text,
-    .text-parl,
-    .text-castle,
-    .text-matt,
-    .szimpla-text,
-    .gellert-text,
-    .szechenyi-text,
-    .market-text {
-      font-size: 16px;
-      padding: 20px;
-    }
-  
-    .parliament {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .image-parl {
-      flex: 1;
-    }
-  
-    .text-parl {
-      flex: 1;
-      padding: 20px;
-      color: #DDE3FD;
-      font-size: 1.4em;
-      line-height: 1.4em;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      transform: translateY(-50%);
-    }
-  
-    .image {
-      width: 100%;
-      height: auto;
-    }
-  }
 
 @media screen and (min-width: 992px) {
     .nav-toggle-label {
