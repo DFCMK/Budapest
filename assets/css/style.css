@@ -507,6 +507,10 @@ button[type="submit"] {
     line-height: 1.4rem;
 }
 
+.message a {
+    color: violet;
+}
+
 footer {
     background-color: #091034;
     position: fixed;
