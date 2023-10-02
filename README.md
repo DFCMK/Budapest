@@ -176,7 +176,7 @@ The green text color was choosen because it is comonly known as a positive signa
 
 ### Testing
 
-coming soon!!!
+Please refer to <a href="https://github.com/DFCMK/Budapest/blob/main/TESTING.md"><em>here<em></a> for more information on testing Budapest - A Historical Travel Guide
 
 ### Deployment 
 

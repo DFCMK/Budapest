@@ -38,6 +38,30 @@ The HTML validator results for each page are below:
 
  ![Screenshoot HTML5 Validator](./assets/images/css-validator.png "HTML Validation report Confirmaton page")
 
+ ## Responsivness Test
+
+ ### Lighthouse
+
+ The site was also tested using <a href="https://developer.chrome.com/docs/lighthouse/overview/#devtools">Lighthouse</a> in Chrome Developer Tools to test each of the pages for: 
+
+  - Performance - How the page performs whilst
+  loading.
+  - Accessibility - Is the site acccessible for all users and how can it be improved
+  - Best Practices - Site conforms to industry
+  best practices.
+  - SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+
+The Screenshot below show the result for Desktops: 
+
+![Screenshoot Desktop Lighthouse result](./assets/images/desktop-devices-lighthouse.png "results for desktops")
+
+The Screenshot below show the result for small devices like mobiles:
+
+![Screenshoot Desktop Lighthouse result](./assets/images/mobile-devices-lighthouse.png "results for mobiles")
+
+
+
+
 
 
 
