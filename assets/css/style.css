@@ -1169,3 +1169,87 @@ footer {
         width: 66vh;
       }
     }
+
+    @media screen and (min-width: 1366px) {
+        .szimpla,
+        .gellert,
+        .szechenyi,
+        .market {
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .szimpla-image img {
+            width: 72.5vh;
+            height: auto;
+            display: block;
+          }
+            
+          
+          .szimpla-tv img {
+            width: 61vh;
+            height: auto;
+            display: block;
+            float: right;
+            margin-top: 4rem;
+          }
+
+          .szimpla-text h2 {
+            margin-right: 645px;
+          }
+
+          .gellert-image img {
+            width: 64vh;
+            height: auto;
+            display: block;
+            margin-bottom: 5rem;
+          }
+        
+          .gellert-hotel img {
+            width: 70vh;
+            height: auto;
+            display: block;
+            float: right;
+            margin-bottom: 4rem;
+          }
+
+          .gellert-text h2 {
+            margin-right: 900px;
+          }
+          
+          .szechenyi-image img {
+            width: 67vh;
+            height: auto;
+            display: block;
+            margin-bottom: 2rem;
+          }
+        
+          .szechenyi-pool img {
+            width: 67vh;
+            height: auto;
+            display: block;
+            margin-bottom: 2rem;
+          }
+
+          .szechenyi-text h2 {
+            margin-right: 900px;
+          }
+
+          .market-image img {
+            width: 69vh;
+            height: 51.5vh;
+            display: block;
+            margin-bottom: 2rem;
+          }
+        
+          .market-two img {
+            width: 64.5vh;
+            height: auto;
+            display: block;
+            margin-bottom: 2rem;
+          }
+
+          .market-text h2 {
+            margin-right: 960px;
+          }
+    }
