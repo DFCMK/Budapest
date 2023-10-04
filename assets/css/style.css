@@ -244,31 +244,38 @@ main {
     margin-top: 2rem;
     color: #DDE3FD;
 }
+
+
+
 /*Szimpla*/
 .szimpla {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
+    /*justify-content: space-between; /*Adjusted*/
 }
 
-.szimpla-image {
-    flex: 1;
-    margin-top: 2.5rem;
-}
-
+.szimpla-image,
 .szimpla-tv {
     flex: 1;
-    margin-top: 2rem;
+    object-fit: contain;
 }
+
+/*.szimpla-tv {
+    flex: 1;
+    flex-direction: row;
+    margin-top: 2rem;
+}*/
+
 .szimpla-image img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
 
 .szimpla-tv img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
@@ -289,29 +296,27 @@ main {
 
 /*Gellert Hotel*/
 .gellert {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
+    justify-content: space-between;
 }
 
-.gellert-image {
-   flex: 1;
-    margin-top: 2rem;
-}
-
+.gellert-image,
 .gellert-hotel {
-    flex: 1;
-    margin-top: 2rem;
+   flex: 1;
+   object-fit: contain;
 }
+
 .gellert-image img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
 
 .gellert-hotel img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
@@ -332,25 +337,27 @@ main {
 
 /*Szechenyi*/
 .szechenyi {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
+    justify-content: space-between;
 }
 
-.szechenyi-image {
+.szechenyi-image,
+.szechenyi-pool {
     flex: 1;
-    margin-top: 2rem;
+    object-fit: contain;
 }
 
 .szechenyi-image img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
 
 .szechenyi-pool img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
@@ -371,33 +378,26 @@ main {
 
 /*Market*/
 .market {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
-.market-image {
-    flex: 1;
-    margin-top: 2rem;
-}
-
+.market-image,
 .market-two {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 2px;
-    margin-right: auto;
+    flex: 1;
+    object-fit: contain;
 }
+
 .market-image img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
 
 .market-two img {
-    width: 50vh;
+    width: 57vh;
     height: auto;
     display: block;
 }
@@ -540,7 +540,6 @@ footer {
         column-count: 2;
         column-gap: 0;
     }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -769,98 +768,100 @@ footer {
 }
 /*Fun Places*/
 .szimpla {
-    display: flex;
-    flex-direction: row;
+    /*display: flex;*/
+    flex-direction: column;
+    color: #DDE3FD;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    overflow: hidden;
   }
   
-  .szimpla-image {
-    flex: auto;
-    max-width: 50%;
-    margin-top: 4rem;
-    max-height: 40vh;
-  }
-
+  .szimpla-image,
   .szimpla-tv {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 20px;
-    margin-right: auto;
-    margin-top: 4rem;
+    width: 50%;
+  height: auto;
+  object-fit: contain;
+  float: left;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 4rem;
   }
 
   .szimpla-image img {
-    width: 50vh;
+    width: 100vh;
     height: auto;
     display: block;
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
-
+    
+  
   .szimpla-tv img {
-    width: 50vh;
+    width: 100vh;
     height: auto;
     display: block;
-    margin-top: 5rem;
   }
 
   .szimpla-text {
-    flex: 6;
-    max-width: 50%;
     margin-top: 2rem;
-    color: #DDE3FD;
     line-height: 1.4em;
     font-size: 1.4em;
-    margin-top: 4rem;
+    padding: 20px;
 }
 .szimpla-text h2 {
     text-decoration: underline;
-    margin-bottom: 1em;
+    margin-top: 1em;
 }
 /*Gellert*/
 .gellert {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    color: #DDE3FD;
+    line-height: 1.4em;
+    font-size: 1.4em;
   }
   
-  .gellert-image {
-    flex: auto;
-    max-width: 50%;
-    margin-top: 2rem;
-    max-height: 40vh;
+  .gellert-image,
+  .gellert-hotel {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
 
-  .gellert-hotel {
+  /*.gellert-hotel {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     margin: 20px;
     margin-right: auto;
-  }
+  }*/
 
   .gellert-image img {
-    width: 50vh;
-    height: auto;
+    width: 90.7vh;
+    height: 58.85vh;
     display: block;
-    margin-top: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
 
   .gellert-hotel img {
-    width: 50vh;
+    width: 90.7vh;
     height: auto;
     display: block;
     margin-top: 5rem;
+    float: right;
+    margin-bottom: 2rem;
   }
 
   .gellert-text {
-    flex: 4;
-    max-width: 50%;
-    padding: 20px;
     margin-top: 2rem;
-    color: #DDE3FD;
     line-height: 1.4em;
     font-size: 1.4em;
+    padding: 20px;
 }
 .gellert-text h2 {
     text-decoration: underline;
@@ -868,102 +869,118 @@ footer {
 }
 /*Szechenyi*/
 .szechenyi {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    color: #DDE3FD;
+    line-height: 1.4em;
+    font-size: 1.4em;
   }
   
-  .szechenyi-image {
-    flex: auto;
-    margin-top: 2rem;
-    max-height: 40vh;
-    max-width: 40%;
+  .szechenyi-image,
+  .szechenyi-pool {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
 
-  .szechenyi-pool {
+  /*.szechenyi-pool {
+    flex: 1;
+    margin-top: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     margin: 20px;
     margin-right: auto;
-  }
+  }*/
 
   .szechenyi-image img {
-    width: 50vh;
-    height: auto;
+    width: 90.7vh;
+    height: 60vh;
     display: block;
-    margin-top: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
 
   .szechenyi-pool img {
-    width: 50vh;
+    width: 90.7vh;
     height: auto;
     display: block;
     margin-top: 5rem;
+    float: right;
+    margin-bottom: 2rem;
   }
 
   .szechenyi-text {
-    flex: 6;
-    max-width: 50%;
-    padding: 20px;
     margin-top: 2rem;
-    color: #DDE3FD;
     line-height: 1.4em;
     font-size: 1.4em;
+    padding: 20px;
   }
 
 .szechenyi-text h2 {
     text-decoration: underline;
     margin-bottom: 1em;
+    text-align: center;
 }
 /*Market*/
 .market {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    color: #DDE3FD;
+    line-height: 1.4em;
+    font-size: 1.4em;
   }
   
-  .market-image {
-    flex: auto;
-    max-width: 50%;
-    margin-top: 2rem;
-    max-height: 40vh;
+  .market-image,
+  .market-two {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
 
-  .market-two {
+  /*.market-two {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     margin: 20px;
     margin-right: auto;
-  }
+  }*/
 
   .market-image img {
-    width: 50vh;
-    height: auto;
+    width: 100vh;
+    height: 72.5vh;
     display: block;
-    margin-top: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
 
   .market-two img {
-    width: 50vh;
+    width: 90.65vh;
     height: auto;
     display: block;
     margin-top: 5rem;
+    float: right;
+    margin-bottom: 2rem;
   }
 
   .market-text {
-    flex: 6;
-    max-width: 50%;
-    padding: 20px;
     margin-top: 2rem;
-    color: #DDE3FD;
     line-height: 1.4em;
     font-size: 1.4em;
+    padding: 20px;
 }
 .market-text h2 {
     text-decoration: underline;
     margin-bottom: 1em;
+    text-align: center;
 }
 
  /*Gallery based on love running code*/
@@ -994,13 +1011,32 @@ footer {
     .chainbridge,
     .parliament,
     .castle,
-    .matthias-church,
+    .matthias-church {
+        flex-direction: row;
+    }
     .szimpla,
     .gellert,
     .szechenyi,
     .market {
-      flex-direction: row;
+      flex-direction: column;
+      overflow: hidden;
     }
+
+    .szimpla-image img {
+        width: 99.3vh;
+        height: auto;
+        display: block;
+        margin-top: 4rem;
+      }
+        
+      
+      .szimpla-tv img {
+        width: 83.5vh;
+        height: auto;
+        display: block;
+        float: right;
+        margin-top: 4rem;
+      }
     
     .text-parl {
         top: 50%;
@@ -1023,15 +1059,89 @@ footer {
 
     @media screen and (width: 1024px) {
         .chainbridge,
-    .parliament,
-    .castle,
-    .matthias-church,
-    .szimpla,
-    .gellert,
-    .szechenyi,
-    .market {
-      flex-direction: row;
-    }
+        .parliament,
+        .castle,
+        .matthias-church {
+            flex-direction: row;
+        }
+
+        .szimpla,
+        .gellert,
+        .szechenyi,
+        .market {
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .szimpla-image img {
+            width: 65vh;
+            height: 50vh;
+            display: block;
+          }
+            
+          
+          .szimpla-tv img {
+            width: 65vh;
+            height: 54.4vh;
+            display: block;
+            float: right;
+            margin-top: 0.8rem;
+          }
+
+          .szimpla-text h2 {
+            margin-right: 645px;
+          }
+
+          .gellert-image img {
+            width: 64vh;
+            height: auto;
+            display: block;
+            margin-bottom: 2rem;
+          }
+        
+          .gellert-hotel img {
+            width: 64vh;
+            height: 45.4vh;
+            display: block;
+            float: right;
+            margin-bottom: 4rem;
+          }
+
+          .szechenyi-image img {
+            width: 64vh;
+            height: auto;
+            display: block;
+            margin-bottom: 2rem;
+          }
+        
+          .szechenyi-pool img {
+            width: 64vh;
+            height: auto;
+            display: block;
+            margin-bottom: 2rem;
+          }
+
+          .szechenyi-text h2 {
+            margin-right: 570px;
+          }
+
+          .market-image img {
+            width: 64vh;
+            height: 51.5vh;
+            display: block;
+            margin-bottom: 2rem;
+          }
+        
+          .market-two img {
+            width: 64vh;
+            height: auto;
+            display: block;
+            margin-bottom: 2rem;
+          }
+
+          .market-text h2 {
+            margin-right: 630px;
+          }
     
     .text-parl {
         top: 50%;
@@ -1059,4 +1169,3 @@ footer {
         width: 66vh;
       }
     }
-  
