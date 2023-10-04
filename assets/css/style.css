@@ -145,19 +145,26 @@ main {
 
 /*Chainbridge*/
 .chainbridge {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
 }
 
-.image {
+.image,
+.image-cb {
     flex: 1;
-    margin-top: 2rem;
+    object-fit: contain;
 }
 
 .image img {
-    width: 55vh;
+    width: 56.2vh;
+    height: auto;
+    display: block;
+}
+
+.image-cb img {
+    width: 56.2vh;
     height: auto;
     display: block;
 }
@@ -171,19 +178,26 @@ main {
 
 /*Parliament*/
 .parliament {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
 }
 
-.image-parl {
+.image-parl,
+.image-parliament {
     flex: 1;
-    margin-top: 2rem;
+    object-fit: contain;
 }
 
 .image-parl img {
-    width: 57vh;
+    width: 56.2vh;
+    height: auto;
+    display: block;
+}
+
+.image-parliament img {
+    width: 56.2vh;
     height: auto;
     display: block;
 }
@@ -196,19 +210,26 @@ main {
 }
 /*Castle*/
 .castle {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
 }
 
-.image-castle {
+.image-castle,
+.image-buda {
     flex: 1;
-    margin-top: 2rem;
+    object-fit: contain;
 }
 
 .image-castle img {
-    width: 57vh;
+    width: 56.2vh;
+    height: auto;
+    display: block;
+}
+
+.image-buda img {
+    width: 56.2vh;
     height: auto;
     display: block;
 }
@@ -221,19 +242,26 @@ main {
 }
 /*Matthias Church*/
 .matthias-church {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
 }
 
-.image-matt {
+.image-matt,
+.image-matty {
     flex: 1;
-    margin-top: 2rem;
+    object-fit: contain;;
 }
 
 .image-matt img {
-    width: 57vh;
+    width: 56.2vh;
+    height: auto;
+    display: block;
+}
+
+.image-matty img {
+    width: 56.2vh;
     height: auto;
     display: block;
 }
@@ -269,13 +297,13 @@ main {
 }*/
 
 .szimpla-image img {
-    width: 57vh;
+    width: 56.2vh;
     height: auto;
     display: block;
 }
 
 .szimpla-tv img {
-    width: 57vh;
+    width: 56.2vh;
     height: auto;
     display: block;
 }
@@ -310,13 +338,13 @@ main {
 }
 
 .gellert-image img {
-    width: 57vh;
+    width: 56.2vh;
     height: auto;
     display: block;
 }
 
 .gellert-hotel img {
-    width: 57vh;
+    width: 56.2vh;
     height: auto;
     display: block;
 }
@@ -351,7 +379,7 @@ main {
 }
 
 .szechenyi-image img {
-    width: 57vh;
+    width: 56.2vh;
     height: auto;
     display: block;
 }
@@ -391,13 +419,13 @@ main {
 }
 
 .market-image img {
-    width: 57vh;
+    width: 56.2vh;
     height: auto;
     display: block;
 }
 
 .market-two img {
-    width: 57vh;
+    width: 56.2vh;
     height: auto;
     display: block;
 }
@@ -513,8 +541,8 @@ button[type="submit"] {
 }
 
 footer {
-    background-color: #091034;
     position: fixed;
+    background-color: #091034;
     bottom: 0;
     margin-top: -20px;
     width: 100%;
@@ -544,9 +572,13 @@ footer {
 
 @media screen and (min-width: 768px) {
     .image img,
+    .image-cb img,
     .image-parl img,
+    .image-parliament img,
     .image-castle img,
+    .image-buda img,
     .image-matt img,
+    .image-matty img,
     .szimpla-image img,
     .szimpla-tv img,
     .gellert-image img,
@@ -628,24 +660,45 @@ footer {
 
    /*Chainbridge*/
 .chainbridge {
-    display: flex;
+    /*display: flex;*/
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 100vh;
     width: 100%
    
 }
 
-.image {
-    flex: 1;
-    margin-top: 6rem;
+.image,
+.image-cb {
+    width: 50%;
+  height: auto;
+  object-fit: contain;
+  float: left;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 4rem;
+  }
+
+.image img {
+    width: 91vh;
+    height: auto;
+    display: block;
+    margin-top: 3rem;
+}
+
+.image-cb img {
+    width: 91vh;
+    height: auto;
+    display: block;
+    margin-top: 3rem;
 }
 
 .text {
     flex: 1;
     flex-direction:column;
-    padding: 20px;
+    padding: 30px;
     margin-top: 6rem;
     color: #ffffff;
     font-size: 1.4em;
@@ -659,35 +712,48 @@ footer {
 
 /*Parliament*/
 .parliament {
-    display: flex;
+    /*display: flex;*/
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 100vh;
     width: 100%;
 }
 
-.image-parl {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 15rem;
-    height: 50vh;
-    flex-wrap: wrap;
+.image-parl,
+.image-parliament {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4rem;
+}
+
+.image-parl img {
+    width: 91vh;
+    height: auto;
+    display: block;
+    margin-top: 10rem;
+}
+
+.image-parliament img {
+    width: 91vh;
+    height: auto;
+    display: block;
+    margin-top: 10rem;
 }
 .text-parl {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(120%);
-    width: 50%;
-    flex-direction: column;
-    padding: 20px;
-    color: #DDE3FD;
+    flex: 1;
+    flex-direction:column;
+    padding: 30px;
+    margin-top: 60rem;
+    color: #ffffff;
     font-size: 1.4em;
     line-height: 1.4em;
+   
 }
 
 .text-parl h2 {
@@ -697,74 +763,97 @@ footer {
 
 /*Castle*/
 .castle {
-    display: flex;
+    /*display: flex;*/
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 100vh;
     width: 100%
 }
 
-.image-castle {
-    flex: 1;
-    margin-top: 7rem;
+.image-castle,
+.image-buda {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4rem;
 }
 
 .image-castle img {
-    width: 60vh;
+    width: 91vh;
     height: auto;
     display: block;
 }
 
+.image-buda img {
+    width: 91vh;
+    height: auto;
+    display: block
+}
+
 .text-castle {
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    margin-top: 5rem;
+    /*display: flex;*/
+    padding: 30px;
     color: #DDE3FD;
     font-size: 1.4em;
     line-height: 1.4em;
 }
 
 .text-castle h2 {
-    margin-bottom: 1em;
+    margin-right: 75rem;
+    text-decoration: underline;
 }
 
 /*Matyas Templom*/
 .matthias-church {
-    display: flex;
+    /*display: flex;*/
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 100vh;
-    width: 100%
+    width: 100%;
 }
 
-.image-matt {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
+.image-matt,
+.image-matty {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4rem;
+}
+
+.image-matt img {
+    width: 91vh;
+    height: auto;
+    display: block;
+}
+
+.image-matty img {
+    width: 91vh;
+    height: auto;
+    display: block;
 }
 
 
 .text-matt {
-    display: flex;
-    position: absolute;
-    left: 20px;
-    transform: translateY(-50%);
-    width: 50%;
-    flex-direction: column;
-    padding: 20px;
+    padding: 30px;
     color: #DDE3FD;
-    margin-top: 20rem;
     font-size: 1.4em;
     line-height: 1.4em;
+    margin-top: 60rem;
 }
 
 .text-matt h2 {
     margin-bottom: 1em;
+    text-decoration: underline;
 }
 /*Fun Places*/
 .szimpla {
@@ -1012,7 +1101,7 @@ footer {
     .parliament,
     .castle,
     .matthias-church {
-        flex-direction: row;
+        flex-direction: column;
     }
     .szimpla,
     .gellert,
@@ -1041,20 +1130,9 @@ footer {
     .text-parl {
         top: 50%;
         left: 0;
-        transform: translateY(95%);
+        transform: translateY(-10%);
       }
-
-      .image-castle img {
-        margin-top: 35rem;
-      }
-
-      .text-castle {
-        margin-top: 35rem;
-      }
-
-      .text-matt {
-        margin-top: 30rem;
-      }
+      
     }
 
     @media screen and (width: 1024px) {
