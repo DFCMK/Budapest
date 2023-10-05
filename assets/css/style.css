@@ -145,10 +145,9 @@ main {
 
 /*Chainbridge*/
 .chainbridge {
-    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
+    overflow: hidden;
 }
 
 .image,
@@ -176,12 +175,15 @@ main {
     color: #DDE3FD;
 }
 
+.text h2 {
+    text-decoration: underline;
+}
+
 /*Parliament*/
 .parliament {
-    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
+    overflow: hidden;
 }
 
 .image-parl,
@@ -208,12 +210,16 @@ main {
     color: #DDE3FD;
     margin-top: 2rem;
 }
+
+.text-parl h2 {
+    text-decoration: underline;
+}
+
 /*Castle*/
 .castle {
-    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
+    overflow: hidden;
 }
 
 .image-castle,
@@ -240,12 +246,16 @@ main {
     margin-top: 2rem;
     color: #DDE3FD;
 }
+
+.text-castle h2 {
+    text-decoration: underline;
+}
+
 /*Matthias Church*/
 .matthias-church {
-    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
+    overflow: hidden;
 }
 
 .image-matt,
@@ -272,16 +282,16 @@ main {
     margin-top: 2rem;
     color: #DDE3FD;
 }
-
-
+.text-matt h2 {
+    text-decoration: underline;
+}
 
 /*Szimpla*/
 .szimpla {
-    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    /*min-height: 100vh;*/
-    /*justify-content: space-between; /*Adjusted*/
+    overflow: hidden;
+    
 }
 
 .szimpla-image,
@@ -289,12 +299,6 @@ main {
     flex: 1;
     object-fit: contain;
 }
-
-/*.szimpla-tv {
-    flex: 1;
-    flex-direction: row;
-    margin-top: 2rem;
-}*/
 
 .szimpla-image img {
     width: 56.2vh;
@@ -319,16 +323,13 @@ main {
 
 .szimpla-text h2 {
     text-decoration: underline;
-    margin-bottom: 1rem;
 }
 
 /*Gellert Hotel*/
 .gellert {
-    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
-    justify-content: space-between;
+    overflow: hidden;
 }
 
 .gellert-image,
@@ -360,16 +361,13 @@ main {
 
 .gellert-text h2 {
     text-decoration: underline;
-    margin-bottom: 1rem;
 }
 
 /*Szechenyi*/
 .szechenyi {
-    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    /*min-height: 100vh;*/
-    justify-content: space-between;
+    overflow: hidden;
 }
 
 .szechenyi-image,
@@ -401,15 +399,13 @@ main {
 
 .szechenyi-text h2 {
     text-decoration: underline;
-    margin-bottom: 1rem;
 }
 
 /*Market*/
 .market {
-    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
-    /*min-height: 100vh;*/
+    overflow: hidden;
 }
 
 .market-image,
@@ -441,7 +437,6 @@ main {
 
 .market-text h2 {
     text-decoration: underline;
-    margin-bottom: 1rem;
 }
 
 /*Gallery (based on love running project)*/
@@ -546,6 +541,7 @@ footer {
     bottom: 0;
     margin-top: -20px;
     width: 100%;
+    overflow: hidden;
 }
 
 #social-media {
@@ -631,7 +627,7 @@ footer {
     #text-overlay:hover {
         opacity: 1;
     }
-/*Kevin Powell based tutorial code snippet*/
+/*Kevin Powell tutorial based code*/
     nav {
         all: unset;
         grid-column: 3 / 4;
@@ -658,15 +654,13 @@ footer {
         color: #DDE3FD;
     }
 
-   /*Chainbridge*/
+    /*Chainbridge*/
 .chainbridge {
-    /*display: flex;*/
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     min-height: 100vh;
-    width: 100%
-   
+    width: 100%;
 }
 
 .image,
@@ -705,14 +699,8 @@ footer {
     line-height: 1.4em;
 }
 
-.text h2 {
-    margin-bottom: 1rem;
-}
-
-
 /*Parliament*/
 .parliament {
-    /*display: flex;*/
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
@@ -736,34 +724,28 @@ footer {
     width: 91vh;
     height: auto;
     display: block;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .image-parliament img {
     width: 91vh;
     height: auto;
     display: block;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .text-parl {
     flex: 1;
     flex-direction:column;
     padding: 30px;
-    margin-top: 60rem;
+    margin-top: 54rem;
     color: #ffffff;
     font-size: 1.4em;
     line-height: 1.4em;
    
 }
 
-.text-parl h2 {
-    margin-bottom: 1rem;
-
-}
-
 /*Castle*/
 .castle {
-    /*display: flex;*/
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
@@ -796,7 +778,6 @@ footer {
 }
 
 .text-castle {
-    /*display: flex;*/
     padding: 30px;
     color: #DDE3FD;
     font-size: 1.4em;
@@ -805,12 +786,10 @@ footer {
 
 .text-castle h2 {
     margin-right: 75rem;
-    text-decoration: underline;
 }
 
 /*Matyas Templom*/
 .matthias-church {
-    /*display: flex;*/
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
@@ -848,16 +827,11 @@ footer {
     color: #DDE3FD;
     font-size: 1.4em;
     line-height: 1.4em;
-    margin-top: 60rem;
+    margin-top: 50rem;
 }
 
-.text-matt h2 {
-    margin-bottom: 1em;
-    text-decoration: underline;
-}
 /*Fun Places*/
 .szimpla {
-    /*display: flex;*/
     flex-direction: column;
     color: #DDE3FD;
     font-size: 1.4em;
@@ -897,10 +871,7 @@ footer {
     font-size: 1.4em;
     padding: 20px;
 }
-.szimpla-text h2 {
-    text-decoration: underline;
-    margin-top: 1em;
-}
+
 /*Gellert*/
 .gellert {
     flex-direction: column;
@@ -919,16 +890,7 @@ footer {
     padding: 0;
     margin: 0;
   }
-
-  /*.gellert-hotel {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 20px;
-    margin-right: auto;
-  }*/
-
+  
   .gellert-image img {
     width: 90.7vh;
     height: 58.85vh;
@@ -952,10 +914,7 @@ footer {
     font-size: 1.4em;
     padding: 20px;
 }
-.gellert-text h2 {
-    text-decoration: underline;
-    margin-bottom: 1em;
-}
+
 /*Szechenyi*/
 .szechenyi {
     flex-direction: column;
@@ -974,18 +933,7 @@ footer {
     padding: 0;
     margin: 0;
   }
-
-  /*.szechenyi-pool {
-    flex: 1;
-    margin-top: 6rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 20px;
-    margin-right: auto;
-  }*/
-
+  
   .szechenyi-image img {
     width: 90.7vh;
     height: 60vh;
@@ -1010,11 +958,6 @@ footer {
     padding: 20px;
   }
 
-.szechenyi-text h2 {
-    text-decoration: underline;
-    margin-bottom: 1em;
-    text-align: center;
-}
 /*Market*/
 .market {
     flex-direction: column;
@@ -1033,16 +976,7 @@ footer {
     padding: 0;
     margin: 0;
   }
-
-  /*.market-two {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 20px;
-    margin-right: auto;
-  }*/
-
+  
   .market-image img {
     width: 100vh;
     height: 72.5vh;
@@ -1066,13 +1000,8 @@ footer {
     font-size: 1.4em;
     padding: 20px;
 }
-.market-text h2 {
-    text-decoration: underline;
-    margin-bottom: 1em;
-    text-align: center;
-}
 
- /*Gallery based on love running code*/
+/*Gallery based on love running code*/
  #photo {
     column-count: 4;
  }
@@ -1100,18 +1029,15 @@ footer {
     .chainbridge,
     .parliament,
     .castle,
-    .matthias-church {
-        flex-direction: column;
-    }
+    .matthias-church,
     .szimpla,
     .gellert,
     .szechenyi,
     .market {
-      flex-direction: column;
-      overflow: hidden;
+        flex-direction: column;
+        overflow: hidden;
     }
-
-    .szimpla-image img {
+        .szimpla-image img {
         width: 99.3vh;
         height: auto;
         display: block;
@@ -1128,9 +1054,15 @@ footer {
       }
     
     .text-parl {
-        top: 50%;
-        left: 0;
-        transform: translateY(-10%);
+        margin-top: 20rem;
+      }
+
+      .text-parl h2 {
+        margin-right: 70rem;
+      }
+
+      .text-matt {
+        margin-top: 10rem;
       }
       
     }
@@ -1139,18 +1071,15 @@ footer {
         .chainbridge,
         .parliament,
         .castle,
-        .matthias-church {
-            flex-direction: row;
-        }
-
+        .matthias-church,
         .szimpla,
         .gellert,
         .szechenyi,
-        .market {
+        .market  {
             flex-direction: column;
             overflow: hidden;
         }
-
+        
         .szimpla-image img {
             width: 65vh;
             height: 50vh;
@@ -1220,33 +1149,19 @@ footer {
           .market-text h2 {
             margin-right: 630px;
           }
-    
-    .text-parl {
-        top: 50%;
-        left: 0;
-        transform: translateY(100%);
-      }
-      .image-parl img {
-        width: 65vh;
-      }
-      .image-castle img {
-        width: 75vh;
-        margin-top: 75rem;
-      }
 
-      .text-castle {
-        margin-top: 75rem;
-      }
+          .text-parl {
+            margin-top: 80px;
+          }
 
-      .text-matt {
-        margin-top: 42rem;
-        padding: 20px;
-      }
+          .text-parl h2 {
+            margin-right: 300px;
+          }
 
-      .image-matt img {
-        width: 66vh;
-      }
-    }
+          .text-matt {
+            margin-top: 1rem;
+          }
+        }
 
         @media screen and (width: 1366px) {
             .szimpla,
