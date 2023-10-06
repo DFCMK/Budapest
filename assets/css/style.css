@@ -1037,3 +1037,24 @@ footer {
             }
         
           }
+          @media screen and (max-width: 320px) {
+          .image img,
+            .image-cb img,
+            .image-parl img,
+            .image-parliament img,
+            .image-castle img,
+            .image-buda img,
+            .image-matt img,
+            .image-matty img,
+            .szimpla-image img,
+            .szimpla-tv img,
+            .gellert-image img,
+            .gellert-hotel img,
+            .szechenyi-image img,
+            .szechenyi-pool img,
+            .market-image img,
+            .market-two img {
+                width: 66.6vh
+            }
+        
+          }
