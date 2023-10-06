@@ -718,27 +718,25 @@ footer {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .image-parl img {
     width: 91vh;
     height: auto;
     display: block;
-    margin-top: 5rem;
-}
+    }
 
 .image-parliament img {
     width: 91vh;
     height: auto;
     display: block;
-    margin-top: 5rem;
+    margin-bottom: 0.1em;
 }
 .text-parl {
     flex: 1;
     flex-direction:column;
     padding: 30px;
-    margin-top: 54rem;
     color: #ffffff;
     font-size: 1.4em;
     line-height: 1.4em;
@@ -828,7 +826,6 @@ footer {
     color: #DDE3FD;
     font-size: 1.4em;
     line-height: 1.4em;
-    margin-top: 50rem;
 }
 
 /*Fun Places*/
@@ -942,7 +939,6 @@ footer {
     height: auto;
     display: block;
     margin-top: 5rem;
-    /*float: right;*/
     margin-bottom: 5rem;
   }
 
