@@ -213,6 +213,8 @@ main {
     padding: 20px;
     color: #DDE3FD;
     margin-top: 2rem;
+    line-height: 1.4em;
+    font-size: 1.4em;
 }
 
 .text-parl h2 {
@@ -249,6 +251,8 @@ main {
     padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
+    line-height: 1.4em;
+    font-size: 1.4em;
 }
 
 .text-castle h2 {
@@ -285,6 +289,8 @@ main {
     padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
+    line-height: 1.4em;
+    font-size: 1.4em;
 }
 .text-matt h2 {
     text-decoration: underline;
@@ -321,8 +327,8 @@ main {
     padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.4em;
+    line-height: 1.4em;
 }
 
 .szimpla-text h2 {
@@ -359,8 +365,8 @@ main {
     padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.4em;
+    line-height: 1.4em;
 }
 
 .gellert-text h2 {
@@ -397,8 +403,8 @@ main {
     padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.4em;
+    line-height: 1.4em;
 }
 
 .szechenyi-text h2 {
@@ -435,8 +441,8 @@ main {
     padding: 20px;
     margin-top: 2rem;
     color: #DDE3FD;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.4em;
+    line-height: 1.4em;
 }
 
 .market-text h2 {
@@ -534,7 +540,7 @@ button[type="submit"] {
 
 .sub-text {
     background-color: rgba(217, 221, 227, 0.85);
-    margin-top: 20rem;
+    margin-top: 4rem;
     font-size: 20px;
     line-height: 1.4em;
 }
@@ -704,8 +710,6 @@ footer {
     padding: 30px;
     margin-top: 6rem;
     color: #DDE3FD;
-    font-size: 1.4em;
-    line-height: 1.4em;
 }
 
 /*Parliament*/
@@ -744,9 +748,6 @@ footer {
 .text-parl {
     padding: 30px;
     color: #DDE3FD;
-    font-size: 1.4em;
-    line-height: 1.4em;
-   
 }
 
 /*Castle*/
@@ -785,8 +786,6 @@ footer {
 .text-castle {
     padding: 30px;
     color: #DDE3FD;
-    font-size: 1.4em;
-    line-height: 1.4em;
 }
 
 .text-castle h2 {
@@ -830,8 +829,6 @@ footer {
 .text-matt {
     padding: 30px;
     color: #DDE3FD;
-    font-size: 1.4em;
-    line-height: 1.4em;
 }
 
 /*Fun Places*/
@@ -870,8 +867,6 @@ footer {
 
   .szimpla-text {
     margin-top: 3rem;
-    line-height: 1.4em;
-    font-size: 1.4em;
     padding: 20px;
 }
 
@@ -908,9 +903,7 @@ footer {
   }
 
   .gellert-text {
-    line-height: 1.4em;
-    font-size: 1.4em;
-    padding: 20px;
+    padding: 30px;
 }
 
 /*Szechenyi*/
@@ -949,10 +942,7 @@ footer {
   }
 
   .szechenyi-text {
-    margin-top: 2rem;
-    line-height: 1.4em;
-    font-size: 1.4em;
-    padding: 20px;
+    padding: 30px;
   }
 
 /*Market*/
@@ -990,9 +980,7 @@ footer {
   }
 
   .market-text {
-    line-height: 1.4em;
-    font-size: 1.4em;
-    padding: 20px;
+   padding: 30px;
 }
 
 /*Gallery based on love running code*/
