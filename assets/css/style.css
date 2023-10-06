@@ -564,6 +564,7 @@ footer {
         column-count: 2;
         column-gap: 0;
     }
+        
 }
 
 @media screen and (min-width: 768px) {
@@ -1016,7 +1017,7 @@ footer {
  }
 }
 
-@media screen and (width: 600px) {
+@media screen and (max-width: 600px) {
             .image img,
             .image-cb img,
             .image-parl img,
@@ -1033,7 +1034,7 @@ footer {
             .szechenyi-pool img,
             .market-image img,
             .market-two img {
-                width: 64vh;
+                width: 60vh;
             }
         
           }
@@ -1054,7 +1055,7 @@ footer {
             .szechenyi-pool img,
             .market-image img,
             .market-two img {
-                width: 66.6vh
+                width: 66.6vh;
             }
         
           }
