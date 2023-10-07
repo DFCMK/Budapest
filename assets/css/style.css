@@ -454,7 +454,8 @@ main {
 #gallery {
     margin-top: 3.2rem;
 }
-#photo img {
+
+/*#photo img {
     width: 100%;
     line-height: 1em;
     column-fill: balance;
@@ -462,7 +463,19 @@ main {
 
 #photo {
     line-height: 0;
+}*/
+#photo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0;
 }
+
+#photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /*Contact*/
 .bg-image {
     width: 100%;
@@ -572,14 +585,14 @@ footer {
 }
 
 
-@media screen and (min-width: 576px) {
-    /*Gallery based on love running code*/
+/*@media screen and (min-width: 576px) {
+    Gallery based on love running code
     #photo {
         column-count: 2;
         column-gap: 0;
     }
         
-}
+}*/
 
 @media screen and (min-width: 768px) {
     .image img,
@@ -600,16 +613,17 @@ footer {
     .market-two img {
         width: 75vh;
     }
-
+}
     /*Gallery based on love running code*/
-    #photo {
+    /*#photo {
         column-count: 2;
+        gap: 0;
     }
 
     .matt-bg {
         height: 395px;
     }
-}
+}*/
 
 @media screen and (min-width: 992px) {
     .nav-toggle-label {
@@ -984,27 +998,28 @@ footer {
 }
 
 /*Gallery based on love running code*/
- #photo {
+/*#photo {
     column-count: 4;
+    gap: 0;
  }
- .basilica {
-    height: 560px;
- }
-
+ 
  .basilica-night {
-    height: 600px;
+    height: 575px;
  }
 
  .lanzhid {
-    height: 950px;
+    height: 920px;
  }
  .matt-bg {
     height: 420px;
  }
 
  .fog {
-    height: 970px;
- }
+    height: 1080px;
+ }*/
+ #photo {
+ grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
 }
 
 @media screen and (width: 600px) {
