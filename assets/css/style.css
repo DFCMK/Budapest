@@ -1064,7 +1064,7 @@ footer {
             }
         }
 
-        @media screen and (width: 384px) {
+        @media screen and (min-width: 360px) {
             .image img,
             .image-cb img,
             .image-parl img,
