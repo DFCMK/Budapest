@@ -7,39 +7,39 @@ Are you ready to explore <a href="https://dfcmk.github.io/Budapest/">Budapest?</
 
 ## Table of Content
 
-- [User Experience UX](#user-experience)
+- <a href="#user-experience-ux">User Experience UX</a>
 
   - [Wireframes](#wireframes)
 
   - [Site Structure](#site-structure)
+  
+- <a href="#design-choices">Design Choices</a>
 
-  - [Design Choices](#design-choices)
-
-  - [typography](#typograph)
+  - [typography](#typography)
 
   - [Color Scheme](#color-scheme)
 
-- [Features](#features)
+- <a href="#features">Features</a>
 
-  - [Home](#home)
+  - [Home page](#home-page)
 
-    - [Navigation Menu](#navigation-menu)
+  - [Navigation Menu](#navigation-menu)
     
-     - [Background Image](#bachground-image)
+  - [Background Image](#bachground-image)
+  
+  - [Introduction](#introduction)
 
-    - [Introduction](#introduction)
+  - [Footer](#footer)
+    
+  - [Historical Places](#historical-places)
+    
+  - [Fun Places](#fun-places)
+    
+  - [Gallery](#gallery)
+    
+  - [Contact](#contact)
 
-    - [Footer](#footer)
-    
-    - [Historical Places](#historical-places)
-    
-    - [Fun Places](#fun-places)
-    
-    - [Gallery](#gallery)
-    
-    - [Contact](#contact)
-
-- [Technologies Used](#technologies-used)
+- <a href="#technologies-used">Technologies Used</a>
 
 - [Testing](#testing)
 
@@ -52,10 +52,15 @@ Are you ready to explore <a href="https://dfcmk.github.io/Budapest/">Budapest?</
   - [Media](#media)
   
   - [Code](#code)
+  
+- [Acknowledgements](#acknowledgements)
 
+<a class="heading-link" href="#user-experience-ux"></a>
 ## User Experience UX
 
-### Wireframes
+
+
+### Wireframes:
 
 The wireframes for Budapest - A Historical Travel Guide were produced in [Balsamiq]("https://balsamiq.cloud/"). There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process.
 
@@ -79,28 +84,29 @@ The wireframes for Budapest - A Historical Travel Guide were produced in [Balsam
 
 ![Picture from Contact-mobile section](./assets/images/Wireframe-mobile-contact.png "Contact-mobile")
 
-### Site Structure
+### Site Structure:
 
 Budapest - A Historical Travel Guide have five pages. The [Home](#home) page is the default loading page, [Historical Places](#historical-places), [Fun Places](#fun-places), [Gallery](#gallery) and [Contact](#contact) pages are all accessible primarily from the navigation menu.
 
-### Design Choices
+<a class="heading-link" href="#design-choices"></a>
+## Design Choices
 
-- [Typography](#typography)
+### Typography:
 
 I have choosen the font Lato for the Website because it is supposed to be a travel guide which provide mostly information about Budapest. I felt like other fonts could might be to distracting while reading the Text section on the page.
 On the [Home](#home) the welcome Text which appears when the User Hover over the middle on a Laptop or Desktop is in italic to transmit a warm welcome feeling to the Page. The headings of the introduction Section underneth the Background image on the [Home](#home) are in italic to accentuate them from the Text sections below.
 
-- Color Scheme
+### Color Scheme:
 
 The color scheme choosen is one based on Monochromatic color Schemes, see blow in the screenshot.
 
 ![Picture from color scheme](./assets/images/Color-scheme.png "color-scheme")
 
-### Features
+## Features:
 
 The Website Budapest - A Historical Travel Guide got build to give users who visit the Website a Inspiration and historical insights about Budapest.
 
-- Navigation Menu:
+#### Navigation Menu:
 
   - located at the top of the page, is fully responsive and contains all links to all pages of the site.
 
@@ -108,7 +114,7 @@ The Website Budapest - A Historical Travel Guide got build to give users who vis
 
   ![Screenshot from Navigation Menu](./assets/images/Navigation-menu.png "Navigation Menu")
 
-- [Home](#home):
+#### Home page:
 
 Contains a background image of the Parliament with a hover effect in the middle of the Page. When the user hover on a Desktop or laptop over the middle of the image, a welcome Text appears. On mobile devices or tablet the text appears without the blue background on the center of the page.
 
@@ -116,11 +122,11 @@ Contains a background image of the Parliament with a hover effect in the middle 
 
 ![Screenshoot from Homepage](./assets/images/Home-mobile.png "Welcome banner on mobile devices")
 
-- Introduction to page:
+#### Introduction to page:
 
 below the background image there are two text blocks with two subheadings and one main heading to give the user an idea what to expect from this side.
 
-- Footer: 
+#### Footer: 
 
   - The Footer contains clickable social media links of the Travel Guide, which direct the user directly to the selected side in a new tap.
 
@@ -134,39 +140,61 @@ below the background image there are two text blocks with two subheadings and on
 
 ![Screenshoot from Homepage](./assets/images/introduction.png "Introduction section below background image")
 
-- [Historical Places](#historical-places):
+#### Historical Places:
 
 The Historical Places page give the user a short summary about the historical background of some places in Budapest, it's purpose is only to give an Inspiration for places to visit.
 
-![Screenshoot from Historical Places](./assets/images/introduction.png "Historical places")
+![Screenshoot from Historical Places](./assets/images/historical-places.png "Historical places")
 
-- [Fun Places](#fun-places):
+<strong>Note:</strong> Background color was changed from <strong>#193DF0</strong> blue to black <strong>rgba(0, 1, 5, 1)</strong>
 
-The Fun Places site want to give the user ideas about what to do in Budapest to have fun and enjoy themself.
+#### Fun Places:
+
+The Fun Places site want to give the user, ideas about what to do in Budapest to have fun and enjoy the city.
 
 
-![Screenshoot from Fun Places](./assets/images/introduction.png "Fun places")
+![Screenshoot from Fun Places](./assets/images/fun-places.png "Fun places")
 
-- [Gallery](#galllery:)
+<strong>Note:</strong> Background color was changed from <strong>#193DF0</strong> blue to black <strong>rgba(0, 1, 5, 1)</strong>
+
+ <strong>Changes have been made:</strong>
+
+  - The <strong>#193DF0</strong> color has been changed to black <strong>rgba(0, 1, 5, 1)</strong> value, because the contrast of white text on blue background was biting the eye.
+
+  - The background color of the Footer has been changed from <strong>#091034</strong> dark blue, to <strong>#DDE3FD</strong> to make the site look more appealing. 
+
+  - The color of the social media Links was changed from <strong>DDE3FD</strong> to <strong>rgba(0, 1, 5, 1)</strong>
+
+  The screenshots below are showing the changes which was made: 
+
+<strong>Home page:</strong>
+
+  ![Screenshoot from Home page](./assets/images/changes-on-homepage.png "Home page")
+
+  ![Screenshoot from Home page](./assets/images/changes-footer.png "What to expect + Footer changes")
+
+
+#### Gallery:
 
 The Gallery page was created to increase the desire of the user to visit Budapest with visualising the city with photos. 
 
 ![Screenshoot from Gallery](./assets/images/gallery-budapest.png "Gallery")
 
-- [Contact](#contact):
+#### Contact:
 
 The Contact page is giving the user the possibility to contact the Travel Guide for further information and Sign up for an exclusive newsletter to stay updated about the latest historical insights.
 
-![Screenshoot from Contact page](./assets/images/contact-page.png "Contactpage")
+![Screenshoot from Contact page](./assets/images/contact-new.png "Contactpage")
 
-- Confirmation Form: 
+#### Confirmation Form: 
 
 When users subscribe to the newsletter they get redirected to the confirmation page, with a background image of the Chainbridge and a green success message and a clickable [Home](#home) link, so the user can get back to the Homepage.
 The green text color was choosen because it is comonly known as a positive signal color.
 
-![Screenshoot from Confirmation page](./assets/images/confirmation.png "Confirmation page")
+![Screenshoot from Confirmation page](./assets/images/confirmation-change.png "Confirmation page")
 
-### Technologies Used
+
+## Technologies Used
 
 - [HTML5](#html5): provides the content and structure for the website
 
@@ -176,11 +204,11 @@ The green text color was choosen because it is comonly known as a positive signa
 
 - [VS Code](vs-code): used to deploy the website.
 
-### Testing
+## Testing
 
 Please refer to <a href="https://github.com/DFCMK/Budapest/blob/main/TESTING.md"><em>here<em></a> for more information on testing Budapest - A Historical Travel Guide
 
-### Deployment 
+## Deployment 
 
 This site was depolyed to GitHub pages. The steps to deploy a site are shown below:
 
@@ -198,7 +226,8 @@ This site was depolyed to GitHub pages. The steps to deploy a site are shown bel
 
 To get to the live link of the GitHub repository - click here: <a href="https://github.com/DFCMK/Budapest">https://github.com/DFCMK/Budapest</a>
 
-#### To Fork the repository on GitHub
+
+### To Fork the repository on GitHub:
 
 
 
@@ -237,9 +266,9 @@ This will create a local clone of the repository in the current directory.
 
 You also can create and name the directory where the clone should be saved in, with adding the directory name after the <URL>. So the full command would look like this: git clone <URl> XXXX(This is a directory name)
 
-### Credits
+## Credits
 
-  #### Content
+  ### Content:
 
    - The font came from <a href="https://fonts.google.com/">Google Fonts.</a>
    - The colour palate was compiled by  <a href="https://www.w3schools.com/colors/colors_monochromatic.asp">W3Schools</a>
@@ -261,11 +290,36 @@ You also can create and name the directory where the clone should be saved in, w
    <a href="https://en.wikipedia.org/wiki/Sz%C3%A9chenyi_thermal_bath">Széchenyi Bath</a>
    <a href="https://en.wikipedia.org/wiki/Great_Market_Hall,_Budapest">The Great Market Hall</a>     
 
-   #### Media
+   ### Media:
 
    - background image on Home page came from <a href="https://www.pexels.com/">pexels</a>
 
    - images on other pages came from <a href="https://www.pexels.com/">unspash</a> and <a href="https://www.istockphoto.com">istockphoto</a>
+
+   ### Code: 
+
+   The Navigation Menu was build with a <a href="https://www.youtube.com/watch?v=8QKOaTYvYUA">YouTube tutorial</a> and the code is based on this video. The code can be find in line 17 - 98 and line 646 - 666. 
+   To see the code click <a href="https://github.com/DFCMK/Budapest/blob/main/assets/css/style.css">here</a>
+
+   The Gallery page was build, while using the "Love Running" project as Guideline. (line 454 - 464) and (line 575 - 582).
+   To see the code click <a href="https://github.com/DFCMK/Budapest/blob/main/assets/css/style.css">here</a>
+
+   ## Acknowledgements:
+
+   I extend my heartfelt thanks to several individuals and communities who contributed to the completion of this project:
+
+- <a href="https://www.linkedin.com/in/precious-ijege-908a00168/">Precious Ijege</a>, my dedicated mentor, for providing valuable guidance and support throughout the development process.
+
+- The Code Institute's Slack community, a source of inspiration and assistance from fellow learners and professionals.
+
+- The entire Code Institute team, whose resources and expertise have been instrumental in my learning journey.
+
+Budapest - A Historical Travel Guide is a product of my passion for the city and my desire to showcase its rich history and culture. Having grown up in Budapest, this project allowed me to share my love for the city with the world.
+
+Denes Kalnoky 2023.
+   
+
+
 
  
 

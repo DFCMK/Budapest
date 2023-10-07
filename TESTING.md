@@ -39,6 +39,13 @@ The HTML validator results for each page are below:
  ![Screenshoot HTML5 Validator](./assets/images/css-validator.png "HTML Validation report Confirmaton page")
 
  ## Responsivness Test
+ The responsive design tests were carried out manually with <a href="https://developer.chrome.com/docs/devtools/">Google Chrome DevTools</a> and <a href="https://www.responsivedesignchecker.com/">Responsive Design Checker</a> and <a href="https://www.mozilla.org/en-US/firefox/developer/">Firefox DevTools</a>
+
+ The site passed all Test on the <a href="https://www.responsivedesignchecker.com/">Responsive Design Checker.</a>
+ 
+ Please **Note:**
+ 
+ in landscape mode on mobile and tablet devices, you might notice that the images on the <strong><q>Historical Places</q></strong> and <strong><q>Fun Places</q></strong> pages don't adjust to fill the available space. They won't expand to fit the screen in this orientation
 
  ### Lighthouse
 
@@ -71,3 +78,6 @@ The Screenshot below show the result for small devices like mobiles:
 
 
 
+
+
+[def]: code-validatio
